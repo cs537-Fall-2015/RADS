@@ -1,0 +1,9 @@
+// This file has been created by Jay Purohit
+
+RAD's primary science objectives are to:
+
+-Characterize the energetic particle spectrum at the surface of Mars
+-Determine the radiation dose for humans on the surface of Mars
+-Enable validation of Mars atmospheric transmission models and radiation transport codes
+-Provide input to the determination of the radiation hazard and mutagenic influences to life, past and present, at and beneath the Martian surface
+-Provide input to the determination of the chemical and isotopic effects of energetic particles on the Martian surface and atmosphere
