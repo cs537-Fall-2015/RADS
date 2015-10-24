@@ -1,5 +1,5 @@
 RAD Info
-
++ create new file structure
 Requirements:
 
  + Gson and JSON Simple JARS
