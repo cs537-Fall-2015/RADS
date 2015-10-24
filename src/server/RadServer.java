@@ -21,7 +21,7 @@ import com.google.gson.GsonBuilder;
 public class RadServer extends RoverServerRunnable {
 
 	private Rad rad = new Rad();
-	String path = "3.json";
+	String path = "/Users/anandsuresh/AndroidStudioProjects/Project/RADS/src/JSON/3.json";
 
 	public RadServer(int port) throws IOException {
 		super(port);
