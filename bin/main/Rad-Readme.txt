@@ -23,7 +23,7 @@ It has a power level and its state, as well as the data collected, which is a li
 
 
 {
-  "powerLevel": 0.0,
+  "powerLevel": 5.0,
   "data": {
     "1432398661977": 7864.786651224616,
     "1432400404083": 9364.75620019206,
