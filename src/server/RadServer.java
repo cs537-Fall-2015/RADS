@@ -44,7 +44,7 @@ public class RadServer extends RoverServerRunnable {
 				// creating socket and waiting for client connection
 				getRoverServerSocket().openSocket();
 
-				// read from socket to ObjectInputStream object
+				// read from socket to ObjectInputStream object here
 				ObjectInputStream inputFromAnotherObject = new ObjectInputStream(
 						getRoverServerSocket().getSocket().getInputStream());
 
