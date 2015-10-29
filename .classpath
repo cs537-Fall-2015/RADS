@@ -2,7 +2,7 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="/Users/shreyvithalani/Desktop/CS537/gson-1.6.jar"/>
-	<classpathentry kind="lib" path="/Users/shreyvithalani/Desktop/CS537/json-simple-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/Users/anandsuresh/Downloads/gson-1.6.jar"/>
+	<classpathentry kind="lib" path="/Users/anandsuresh/Downloads/json-simple-1.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

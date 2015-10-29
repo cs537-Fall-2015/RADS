@@ -1,4 +1,13 @@
+/g22simulation/
+/generic/
 /main/
+<<<<<<< HEAD
 /g22simulation/
 /generic/
 /server/
+=======
+/server/
+/JSON/
+/RADS/
+/Callback/
+>>>>>>> develop
