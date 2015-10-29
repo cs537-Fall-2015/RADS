@@ -1,4 +1,4 @@
-package g22simulation;
+package RADS;
 
 public class Main {
 
