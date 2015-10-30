@@ -32,7 +32,7 @@ public class RadMain {
 
 			// start the thread which communicates through sockets
 			client_1.start();
-
+			System.out.println("client process initiated");
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
