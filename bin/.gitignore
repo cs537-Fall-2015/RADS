@@ -1,7 +1,11 @@
+<<<<<<< HEAD
 /.DS_Store
+=======
+>>>>>>> origin/master
 /g22simulation/
 /generic/
 /main/
+<<<<<<< HEAD
 <<<<<<< HEAD
 /server/
 =======
@@ -10,3 +14,18 @@
 /server/
 /callbacks/
 >>>>>>> Rads-shrey
+=======
+/g22simulation/
+/generic/
+/server/
+=======
+/server/
+/JSON/
+/RADS/
+/Callback/
+<<<<<<< HEAD
+>>>>>>> develop
+=======
+>>>>>>> develop
+/ReferenceCode/
+>>>>>>> origin/master
