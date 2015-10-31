@@ -2,4 +2,11 @@
 /g22simulation/
 /generic/
 /main/
+<<<<<<< HEAD
 /server/
+=======
+/g22simulation/
+/generic/
+/server/
+/callbacks/
+>>>>>>> Rads-shrey
