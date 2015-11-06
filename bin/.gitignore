@@ -1,8 +1,7 @@
+/main/
 /g22simulation/
 /generic/
-/main/
 /server/
-/JSON/
-/RADS/
-/Callback/
-/ReferenceCode/
+/callbacks/
+/json/
+/jso/
