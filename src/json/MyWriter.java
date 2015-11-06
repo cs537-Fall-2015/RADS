@@ -1,4 +1,4 @@
-package json;
+package JSON;
 
 import java.io.FileWriter;
 import java.io.IOException;
@@ -27,7 +27,7 @@ public class MyWriter {
 		}
 		
 		// Object is converted to a JSON String
-		String jsonString = gson.toJson(myObject);
+		String jsonString = (String) gson.toJson(myObject);
 		
 		// Write the file
 		try {
