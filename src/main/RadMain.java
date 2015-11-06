@@ -39,5 +39,9 @@ public class RadMain {
 		}
 
 	}
+	
+	public void test () {
+		System.out.println("testing the module");
+	}
 
 }
