@@ -1,6 +1,8 @@
 package server;
 
 import generic.RoverServerRunnable;
+import JSON.MyWriter;
+import JSON.GlobalReader;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -164,56 +166,62 @@ public class RadServer extends RoverServerRunnable {
 		Gson gson = new GsonBuilder().setPrettyPrinting().create();
 
 		// Instantiate the writer since we're writing to a JSON file.
-		FileWriter writer = null;
-		try {
-			writer = new FileWriter(path);
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
+		//FileWriter writer = null;
+//		try {
+//			writer = new FileWriter(path);
+//		} catch (IOException e) {
+//			e.printStackTrace();
+//		}
 
 		// Object is converted to a JSON String
-		String jsonString = gson.toJson(rad);
+		//String jsonString = gson.toJson(rad);
+		
+		new JSON.MyWriter(rad, 3); 
 
 		// Write the file
-		try {
-			writer.write(jsonString);
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
+//		try {
+//			writer.write(jsonString);
+//		} catch (IOException e) {
+//			e.printStackTrace();
+//		}
 
 		// Close the Writer
-		try {
-			writer.close();
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
+//		try {
+//			writer.close();
+//		} catch (IOException e) {
+//			e.printStackTrace();
+//		}
 	}
 
 	@SuppressWarnings("unchecked")
 	void readJson() {
-		JSONParser parser = new JSONParser();
-
-		try {
-
-			Object obj = parser.parse(new FileReader(path));
-			JSONObject json = (JSONObject) obj;
-
-			rad.setState((String) json.get("state"));
-
-			JSONObject j = (JSONObject) json.get("data");
-
-			rad.setData(j);
-
-		} catch (FileNotFoundException e) {
-			System.out.println("No file found. " + e.getMessage());
-			// e.printStackTrace();
-		} catch (IOException e) {
-			System.out.println("I/O exception found.");
-			e.printStackTrace();
-		} catch (ParseException e) {
-			System.out.println("Parse exception found.");
-			e.printStackTrace();
-		}
+		//JSONParser parser = new JSONParser();
+		//JSONObject obj = null;
+//		try {
+//
+//			Object obj = parser.parse(new FileReader(path));
+//			JSONObject json = (JSONObject) obj;
+//
+//			rad.setState((String) json.get("state"));
+//
+//			JSONObject j = (JSONObject) json.get("data");
+//
+//			rad.setData(j);
+//
+//		} catch (FileNotFoundException e) {
+//			System.out.println("No file found. " + e.getMessage());
+//			// e.printStackTrace();
+//		} catch (IOException e) {
+//			System.out.println("I/O exception found.");
+//			e.printStackTrace();
+//		} catch (ParseException e) {
+//			System.out.println("Parse exception found.");
+//			e.printStackTrace();
+//		}
+		
+		JSON.GlobalReader greader = new JSON.GlobalReader(3);
+		JSONObject obj = greader.getJSONObject();
+		rad.setData(obj);
 
 	}
 }

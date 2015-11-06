@@ -12,7 +12,7 @@ public class RadMain {
 	public static void main(String[] args) {
 
 		// Each module has its own port
-		int port_one = 9003;
+		int port_one = 9009;
 
 		try {
 
@@ -38,6 +38,10 @@ public class RadMain {
 			e.printStackTrace();
 		}
 
+	}
+	
+	public void test () {
+		System.out.println("testing the module");
 	}
 
 }
