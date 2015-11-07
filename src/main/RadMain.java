@@ -12,7 +12,7 @@ public class RadMain {
 	public static void main(String[] args) {
 
 		// Each module has its own port
-		int port_one = 9003;
+		int port_one = 9009;
 
 		try {
 
@@ -32,12 +32,16 @@ public class RadMain {
 
 			// start the thread which communicates through sockets
 			client_1.start();
-			System.out.println("Client process started");
+			System.out.println("Client process initiated");
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 
+	}
+	
+	public void test () {
+		System.out.println("testing the module");
 	}
 
 }

@@ -12,6 +12,7 @@ public class CallBack {
 	public void done() {
 		CallBackClient client = null;
 		try {
+			// Create a new callback client for port number 9009
 			client = new CallBackClient(9009, null);
 		} catch (UnknownHostException e) {
 			// TODO Auto-generated catch block
