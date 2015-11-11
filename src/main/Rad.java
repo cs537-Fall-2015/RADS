@@ -24,28 +24,28 @@ public class Rad {
     public Rad() {
     }
     
-    // Change state
+    // Set the state to RAD_OFF
     
     public void off() {
         setState("RAD_OFF");
     }
-    
+    // Set the state to RAD_BOOTUP
     public void bootup() {
         setState("RAD_BOOTUP");
     }
-    
+    // Set the state to RAD_Science
     public void science() {
         setState("RAD_SCIENCE");
     }
-    
+    // Set the state to RAD_CHECKOUT
     public void checkout() {
         setState("RAD_CHECKOUT");
     }
-    
+    // Set the state to RAD_SHUTDOWN
     public void shutdown() {
         setState("RAD_SHUTDOWN");
     }
-    
+    // Set the state to RAD_SLEEP
     public void sleep() {
         setState("RAD_SLEEP");
     }
