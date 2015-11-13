@@ -11,11 +11,9 @@ public class RadMain {
 	public static void main(String[] args) {
 
 		// Each module has its own port
-<<<<<<< HEAD:src/main/RadMain.java
-		int port_one = 9011;
-=======
-		int port_one = 9012;
->>>>>>> develop:src/RADS/RADS_Test/RadMain.java
+
+		int port_one = 9018;
+
 
 		try {
 
