@@ -2,10 +2,10 @@ package RADS;
 
 import generic.RoverServerRunnable;
 
-import json.MyWriter;
-import json.GlobalReader;
-import json.MyWriter;
-import json.GlobalReader;
+import JSON.MyWriter;
+import JSON.GlobalReader;
+import JSON.MyWriter;
+import JSON.GlobalReader;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -75,7 +75,7 @@ public class RadServer extends RoverServerRunnable {
 					rad.checkout();
 					message = "Rad Data:" + rad.getData();
 
-					rad.clearData();
+					//rad.clearData();
 
 				} else if (message.equals("RAD_SHUTDOWN")) {
 
@@ -178,9 +178,7 @@ public class RadServer extends RoverServerRunnable {
 		//String jsonString = gson.toJson(rad);
 		
 
-		new json.MyWriter(rad, 3); 
-
-		new json.MyWriter(rad, 3); 
+		new JSON.MyWriter(rad, 3); 
 
 		// Write the file
 //		try {
@@ -224,7 +222,7 @@ public class RadServer extends RoverServerRunnable {
 //		}
 		
 		//json.GlobalReader greader = new JSON.GlobalReader(3);
-		json.GlobalReader greader = new json.GlobalReader(3);
+		JSON.GlobalReader greader = new JSON.GlobalReader(3);
 		JSONObject obj = greader.getJSONObject();
 		rad.setData(obj);
 
