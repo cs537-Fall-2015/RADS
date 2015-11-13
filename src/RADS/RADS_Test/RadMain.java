@@ -1,18 +1,21 @@
-package main;
+package RADS.RADS_Test;
 
 import generic.RoverThreadHandler;
 
 import java.io.IOException;
 
-import server.RadClient;
-import server.RadServer;
+import RADS.RadServer;
 
 public class RadMain {
 
 	public static void main(String[] args) {
 
 		// Each module has its own port
+<<<<<<< HEAD:src/main/RadMain.java
 		int port_one = 9011;
+=======
+		int port_one = 9012;
+>>>>>>> develop:src/RADS/RADS_Test/RadMain.java
 
 		try {
 
