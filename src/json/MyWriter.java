@@ -27,7 +27,7 @@ public class MyWriter {
 		}
 		
 		// Object is converted to a JSON String
-		String jsonString = (String) gson.toJson(myObject);
+		String jsonString = gson.toJson(myObject);
 		
 		// Write the file
 		try {
