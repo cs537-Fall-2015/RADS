@@ -142,7 +142,7 @@ public class RadServer extends RoverServerRunnable {
 
 			for (int i = 0; i < 15; i++) {
 
-				double calc = Rad.MIN_RADIATION
+				Double calc = Rad.MIN_RADIATION
 						+ (Math.random() * ((Rad.MAX_RADIATION - Rad.MIN_RADIATION) + 1));
 
 				rad.addMeasurement(calc);
