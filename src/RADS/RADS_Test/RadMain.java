@@ -1,11 +1,10 @@
-package main;
+package RADS.RADS_Test;
 
 import generic.RoverThreadHandler;
 
 import java.io.IOException;
 
-import server.RadClient;
-import server.RadServer;
+import RADS.RadServer;
 
 public class RadMain {
 

@@ -1,4 +1,4 @@
-package server;
+package RADS.RADS_Test;
 
 import java.io.IOException;
 import java.io.ObjectInputStream;

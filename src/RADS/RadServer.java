@@ -1,4 +1,4 @@
-package server;
+package RADS;
 
 import generic.RoverServerRunnable;
 import JSON.MyWriter;
@@ -10,8 +10,6 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
-
-import main.Rad;
 
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
