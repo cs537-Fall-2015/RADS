@@ -3,6 +3,8 @@ package JSON;
 import java.io.FileWriter;
 import java.io.IOException;
 
+import org.json.simple.JSONObject;
+
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
@@ -16,7 +18,7 @@ public class MyWriter {
 		String myFilePath = groupNumber + ".json";
 		
 		// Gson is used to create a json object that is spaced nicely
-		Gson gson = new GsonBuilder().setPrettyPrinting().create();
+		Gson gson = new Gson();
 
 		// Instantiate the writer since we're writing to a JSON file.
 		FileWriter writer = null;

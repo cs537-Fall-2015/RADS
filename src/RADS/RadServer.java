@@ -1,8 +1,11 @@
 package RADS;
 
 import generic.RoverServerRunnable;
-import JSON.MyWriter;
-import JSON.GlobalReader;
+
+import json.MyWriter;
+import json.GlobalReader;
+import json.MyWriter;
+import json.GlobalReader;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -137,7 +140,7 @@ public class RadServer extends RoverServerRunnable {
 
 			for (int i = 0; i < 15; i++) {
 
-				double calc = Rad.MIN_RADIATION
+				Double calc = Rad.MIN_RADIATION
 						+ (Math.random() * ((Rad.MAX_RADIATION - Rad.MIN_RADIATION) + 1));
 
 				rad.addMeasurement(calc);
@@ -174,7 +177,10 @@ public class RadServer extends RoverServerRunnable {
 		// Object is converted to a JSON String
 		//String jsonString = gson.toJson(rad);
 		
-		new JSON.MyWriter(rad, 3); 
+
+		new json.MyWriter(rad, 3); 
+
+		new json.MyWriter(rad, 3); 
 
 		// Write the file
 //		try {
@@ -217,7 +223,8 @@ public class RadServer extends RoverServerRunnable {
 //			e.printStackTrace();
 //		}
 		
-		JSON.GlobalReader greader = new JSON.GlobalReader(3);
+		//json.GlobalReader greader = new JSON.GlobalReader(3);
+		json.GlobalReader greader = new json.GlobalReader(3);
 		JSONObject obj = greader.getJSONObject();
 		rad.setData(obj);
 
