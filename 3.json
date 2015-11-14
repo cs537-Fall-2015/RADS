@@ -1,126 +1,130 @@
 {
-  "powerLevel": 0.0,
+  "powerLevel": 4.2,
   "data": {
     "powerLevel": 0.0,
     "state": "RAD_OFF",
     "data": {
       "powerLevel": 0.0,
       "data": {
-        "powerLevel": 1.2,
-        "state": "RAD_SLEEP",
+        "powerLevel": 0.0,
+        "state": "RAD_OFF",
         "data": {
-          "powerLevel": 4.2,
+          "powerLevel": 1.2,
           "data": {
-            "1447401848978": 6481.806507016516,
             "powerLevel": 4.2,
-            "state": "RAD_SCIENCE",
+            "state": "RAD_CHECKOUT",
             "data": {
-              "powerLevel": 1.2,
+              "1447401848978": 6481.806507016516,
+              "powerLevel": 4.2,
               "data": {
-                "powerLevel": 4.2,
-                "state": "RAD_SCIENCE",
+                "powerLevel": 1.2,
+                "state": "RAD_SLEEP",
                 "data": {
-                  "powerLevel": 0.0,
+                  "powerLevel": 4.2,
                   "data": {
                     "powerLevel": 0.0,
                     "state": "RAD_OFF",
                     "data": {
                       "powerLevel": 0.0,
                       "data": {
-                        "powerLevel": 1.2,
-                        "state": "RAD_SLEEP",
+                        "powerLevel": 0.0,
+                        "state": "RAD_OFF",
                         "data": {
-                          "powerLevel": 4.2,
+                          "powerLevel": 1.2,
                           "data": {
-                            "1447401738120": 4651.510458218842,
                             "powerLevel": 4.2,
-                            "1447401738121": 3653.4172137182163,
-                            "state": "RAD_SCIENCE",
+                            "state": "RAD_CHECKOUT",
                             "data": {
-                              "powerLevel": 1.2,
+                              "1447401738120": 4651.510458218842,
+                              "1447401738121": 3653.4172137182163,
+                              "powerLevel": 4.2,
                               "data": {
-                                "1447401722500": 3969.896508930695,
-                                "1447401722501": 2334.5380050839653,
-                                "powerLevel": 4.2,
-                                "state": "RAD_SCIENCE",
+                                "powerLevel": 1.2,
+                                "state": "RAD_SLEEP",
                                 "data": {
-                                  "powerLevel": 0.0,
+                                  "1447401722500": 3969.896508930695,
+                                  "1447401722501": 2334.5380050839653,
+                                  "powerLevel": 4.2,
                                   "data": {
                                     "powerLevel": 0.0,
                                     "state": "RAD_OFF",
                                     "data": {
                                       "powerLevel": 0.0,
                                       "data": {
-                                        "powerLevel": 1.2,
-                                        "state": "RAD_SLEEP",
+                                        "powerLevel": 0.0,
+                                        "state": "RAD_OFF",
                                         "data": {
-                                          "powerLevel": 4.2,
+                                          "powerLevel": 1.2,
                                           "data": {
                                             "powerLevel": 4.2,
-                                            "1447401641561": 8569.804734409234,
-                                            "state": "RAD_SCIENCE",
+                                            "state": "RAD_CHECKOUT",
                                             "data": {
-                                              "powerLevel": 1.2,
+                                              "powerLevel": 4.2,
                                               "data": {
-                                                "powerLevel": 4.2,
-                                                "state": "RAD_SCIENCE",
+                                                "powerLevel": 1.2,
+                                                "state": "RAD_SLEEP",
                                                 "data": {
-                                                  "powerLevel": 0.0,
+                                                  "powerLevel": 4.2,
                                                   "data": {
                                                     "powerLevel": 0.0,
                                                     "state": "RAD_OFF",
                                                     "data": {
                                                       "powerLevel": 0.0,
                                                       "data": {
-                                                        "powerLevel": 1.2,
-                                                        "state": "RAD_SLEEP",
+                                                        "powerLevel": 0.0,
+                                                        "state": "RAD_OFF",
                                                         "data": {
-                                                          "powerLevel": 4.2,
-                                                          "data": {},
-                                                          "state": "RAD_CHECKOUT"
+                                                          "powerLevel": 1.2,
+                                                          "data": {
+                                                            "powerLevel": 4.2,
+                                                            "state": "RAD_CHECKOUT",
+                                                            "data": {}
+                                                          },
+                                                          "state": "RAD_SLEEP"
                                                         }
                                                       },
                                                       "state": "RAD_OFF"
                                                     }
                                                   },
-                                                  "state": "RAD_OFF"
-                                                },
-                                                "1447401625940": 6672.681317916865
+                                                  "state": "RAD_SCIENCE",
+                                                  "1447401625940": 6672.681317916865
+                                                }
                                               },
-                                              "state": "RAD_SLEEP"
-                                            },
-                                            "1447401641562": 1855.0515857027106
+                                              "state": "RAD_SCIENCE",
+                                              "1447401641561": 8569.804734409234,
+                                              "1447401641562": 1855.0515857027106
+                                            }
                                           },
-                                          "state": "RAD_CHECKOUT"
+                                          "state": "RAD_SLEEP"
                                         }
                                       },
                                       "state": "RAD_OFF"
                                     }
                                   },
-                                  "state": "RAD_OFF"
+                                  "state": "RAD_SCIENCE"
                                 }
                               },
-                              "state": "RAD_SLEEP"
+                              "state": "RAD_SCIENCE"
                             }
                           },
-                          "state": "RAD_CHECKOUT"
+                          "state": "RAD_SLEEP"
                         }
                       },
                       "state": "RAD_OFF"
                     }
                   },
-                  "state": "RAD_OFF"
-                },
-                "1447401833351": 4677.807344941274
+                  "state": "RAD_SCIENCE",
+                  "1447401833351": 4677.807344941274
+                }
               },
-              "state": "RAD_SLEEP"
+              "state": "RAD_SCIENCE"
             }
           },
-          "state": "RAD_CHECKOUT"
+          "state": "RAD_SLEEP"
         }
       },
       "state": "RAD_OFF"
     }
   },
-  "state": "RAD_OFF"
+  "state": "RAD_SCIENCE"
 }
