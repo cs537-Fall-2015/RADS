@@ -15,10 +15,11 @@ public abstract class RoverClientRunnable implements Runnable{
 	private void setRoverSocket(int port, InetAddress host) throws UnknownHostException{		
 		this.roverSocket = new RoverSocket(port, host);		
 	}
-	
+	//gets the rover socket program running
 	public RoverSocket getRoverSocket(){		
 		return roverSocket;		
 	}
+	//if the exception shown it will close all socket programs running
 	public void closeAll() throws IOException{
 		if(roverSocket != null)
 			roverSocket.closeAll();

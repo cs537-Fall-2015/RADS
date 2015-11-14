@@ -1,10 +1,17 @@
-package json;
+package JSON;
 
 import java.io.FileWriter;
 import java.io.IOException;
+import java.lang.reflect.Type;
+import java.util.HashMap;
+
+import org.json.simple.JSONObject;
+
+import RADS.Rad;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import com.google.gson.reflect.TypeToken;
 
 public class MyWriter {
 
@@ -14,7 +21,7 @@ public class MyWriter {
 		
 		// This file is saved into the source folder for this Java Project
 		String myFilePath = groupNumber + ".json";
-		
+
 		// Gson is used to create a json object that is spaced nicely
 		Gson gson = new GsonBuilder().setPrettyPrinting().create();
 
