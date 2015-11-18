@@ -145,9 +145,6 @@ public class RadServer extends RoverServerRunnable {
 
 				rad.addMeasurement(calc);
 				
-//				if(calc > 1000) {
-//					rad.setHeJson(calc);
-//				}
 			}
 			//System.out.println(rad.getHeJson());
 			message += "\nRAD: Collection completed.\nGoing to sleep for 45 mins";
