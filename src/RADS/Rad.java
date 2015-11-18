@@ -29,8 +29,7 @@ public class Rad {
     public HashMap<String, String> data = new HashMap<String, String>();
     
     private String state = "RAD_OFF";
-    
-<<<<<<< HEAD:src/RADS/Rad.java
+
     private JSONArray heJson;
     
     public JSONArray getHeJson() {
@@ -40,8 +39,8 @@ public class Rad {
 	@SuppressWarnings("unchecked")
 	public void setHeJson(Double radLevel) {
 		
-		heJson.add(radLevel);
-=======
+		heJson.add(radLevel);}
+
     JSONArray jarray = new JSONArray();
     
     public JSONArray getJarray() {
@@ -54,7 +53,7 @@ public class Rad {
 		obj.put(particle, radlevel);
 		obj.put("Time", Calendar.getInstance().getTimeInMillis());
 		jarray.add(obj);
->>>>>>> Rads-shrey:src/RADS/Rad.java
+
 	}
 
 	public Rad() {
