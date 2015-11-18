@@ -2,6 +2,10 @@ package RADS;
 
 import java.util.Calendar;
 import java.util.HashMap;
+import java.util.ArrayList;
+
+import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
 
 public class Rad {
     
@@ -13,15 +17,31 @@ public class Rad {
     
     public final static double MIN_RADIATION = 0.1;
     
-    public final static double MAX_RADIATION = Math.pow(10, 4);
+    public final static double MAX_RADIATION = Math.pow(10, 3);
     
     private double powerLevel;
     
-    private HashMap<Long, Double> data = new HashMap<Long, Double>();
+    ArrayList<Double> elements = new ArrayList<Double>();
+    
+    public HashMap<String, String> data = new HashMap<String, String>();
     
     private String state = "RAD_OFF";
     
-    public Rad() {
+    JSONArray jarray = new JSONArray();
+    
+    public JSONArray getJarray() {
+		return jarray;
+	}
+
+	@SuppressWarnings({ "unchecked" })
+	public void setJarray(String particle, String radlevel ) {
+		JSONObject obj = new JSONObject();
+		obj.put(particle, radlevel);
+		obj.put("Time", Calendar.getInstance().getTimeInMillis());
+		jarray.add(obj);
+	}
+
+	public Rad() {
     }
     
     // Set the state to RAD_OFF
@@ -75,8 +95,12 @@ public class Rad {
         }
     }
     
-    public void addMeasurement(Double radiationLevel) {
-        data.put(Calendar.getInstance().getTimeInMillis(), radiationLevel);
+    public void addMeasurement(String particle, String radiationLevel) {
+    	//elements.add(radiationLevel);
+    	
+        data.put(particle, radiationLevel);
+        System.out.println("in add measurement");
+        System.out.println(particle + radiationLevel);
     }
     
     public void clearData() {
@@ -85,7 +109,7 @@ public class Rad {
     
     // Getters/Setters
     
-    public HashMap<Long, Double> getData() {
+    public HashMap<String, String> getData() {
         if (state.equals("RAD_CHECKOUT")) {
             return data;
         } else {
@@ -93,7 +117,7 @@ public class Rad {
         }
     }
     
-    public void setData(HashMap<Long, Double> data) {
+    public void setData(HashMap<String, String> data) {
         this.data = data;
     }
     
