@@ -24,6 +24,20 @@ public class Rad {
     
     private String state = "RAD_OFF";
     
+<<<<<<< HEAD
+=======
+    private JSONArray heJson;
+    
+    public JSONArray getHeJson() {
+		return heJson;
+	}
+
+	@SuppressWarnings("unchecked")
+	public void setHeJson(Double radLevel) {
+		
+		heJson.add(radLevel);
+	}
+>>>>>>> master
 
 	public Rad() {
     }
