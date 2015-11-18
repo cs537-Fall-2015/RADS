@@ -12,7 +12,11 @@ public class RadMain {
 
 		// Each module has its own port
 
+<<<<<<< HEAD:src/RADS/RADS_Test/RadMain.java
 		int port_one = 9026;
+=======
+		int port_one = 9020;
+>>>>>>> Rads-shrey:src/RADS/RADS_Test/RadMain.java
 
 
 		try {
