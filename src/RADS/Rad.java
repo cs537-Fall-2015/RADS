@@ -3,6 +3,9 @@ package RADS;
 import java.util.Calendar;
 import java.util.HashMap;
 
+import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
+
 public class Rad {
     
     private final static double POWER_LEVEL_ON = 4.2;
@@ -21,7 +24,19 @@ public class Rad {
     
     private String state = "RAD_OFF";
     
-    public Rad() {
+    private JSONArray heJson;
+    
+    public JSONArray getHeJson() {
+		return heJson;
+	}
+
+	@SuppressWarnings("unchecked")
+	public void setHeJson(Double radLevel) {
+		
+		heJson.add(radLevel);
+	}
+
+	public Rad() {
     }
     
     // Set the state to RAD_OFF

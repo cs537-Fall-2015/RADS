@@ -144,8 +144,12 @@ public class RadServer extends RoverServerRunnable {
 						+ (Math.random() * ((Rad.MAX_RADIATION - Rad.MIN_RADIATION) + 1));
 
 				rad.addMeasurement(calc);
+				
+//				if(calc > 1000) {
+//					rad.setHeJson(calc);
+//				}
 			}
-
+			//System.out.println(rad.getHeJson());
 			message += "\nRAD: Collection completed.\nGoing to sleep for 45 mins";
 
 			Thread.sleep(15000); // sleep for 15 seconds
