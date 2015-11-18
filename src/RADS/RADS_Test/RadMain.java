@@ -31,7 +31,7 @@ public class RadMain {
 			Thread client_1 = RoverThreadHandler.getRoverThreadHandler()
 					.getNewThread(clientOne);
 
-			// start the thread which communicates through sockets
+			// start the thread which communicates through sockets initiates it
 			client_1.start();
 			System.out.println("Client process initiated");
 		} catch (IOException e) {
