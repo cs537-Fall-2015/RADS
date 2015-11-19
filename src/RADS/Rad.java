@@ -3,6 +3,8 @@ package RADS;
 import java.util.Calendar;
 import java.util.HashMap;
 import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Set;
 
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
@@ -21,7 +23,13 @@ public class Rad {
     
     private double powerLevel;
     
-    ArrayList<Double> elements = new ArrayList<Double>();
+    public static ArrayList<String> part = new ArrayList<String>();
+    
+    //public static Set<String> part = new HashSet<String>();
+    
+    public static ArrayList<String> radiation = new ArrayList<String>();
+    
+    //public static Set<String> radiation = new HashSet<String>();
     
     public HashMap<String, String> data = new HashMap<String, String>();
     
@@ -36,8 +44,10 @@ public class Rad {
 	@SuppressWarnings({ "unchecked" })
 	public void setJarray(String particle, String radlevel ) {
 		JSONObject obj = new JSONObject();
-		obj.put(particle, radlevel);
-		obj.put("Time", Calendar.getInstance().getTimeInMillis());
+		obj.put("particle", particle);
+		obj.put("Radiation",radlevel);
+		part.add(particle);
+		radiation.add(radlevel);
 		jarray.add(obj);
 	}
 
@@ -99,8 +109,7 @@ public class Rad {
     	//elements.add(radiationLevel);
     	
         data.put(particle, radiationLevel);
-        System.out.println("in add measurement");
-        System.out.println(particle + radiationLevel);
+  
     }
     
     public void clearData() {

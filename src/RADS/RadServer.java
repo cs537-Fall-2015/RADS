@@ -21,10 +21,11 @@ import org.json.simple.parser.ParseException;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
+
 public class RadServer extends RoverServerRunnable {
 
 	private Rad rad = new Rad();
-	String path = "3.json";
+	String path = "5.json";
 	
 	String particle;
 	
@@ -111,38 +112,21 @@ public class RadServer extends RoverServerRunnable {
 
 					message = "RAD power consumption is: "
 							+ rad.getPowerConsumption();
-					//doWork();
-//					System.out.println("In hashmap");
-//					for (String key : rad.data.keySet()) {
-//						System.out.println("Key = " + key);
-//						}
-					//writeJson();
+				
 				}
-
-				
-				
-
-				// write object to Socket
 				outputToAnotherObject.writeObject("Rad Server response - "
 						+ message);
-
-				// close resources
 				inputFromAnotherObject.close();
 				outputToAnotherObject.close();
-
-				// getRoverServerSocket().closeSocket();
-				// terminate the server if client sends exit request
 				if (message.equalsIgnoreCase("exit"))
 					break;
 			}
 			System.out.println("Server: Shutting down Socket server 1!!");
-			// close the ServerSocket object
 			closeAll();
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} catch (ClassNotFoundException e) {
-			// TODO Auto-generated catch block
+		
 			e.printStackTrace();
 		} catch (Exception error) {
 			System.out.println("Server: Error:" + error.getMessage());
@@ -158,6 +142,7 @@ public class RadServer extends RoverServerRunnable {
 
 			message += "\nRAD: Now in SCIENCE mode. Reading data for 15 mins.";
 			message += "\nRAD: Adding measurements from the environment.";
+			message += "\nRAD: Adding radiation and particle data to json file";
 			
 			for (int i = 0; i < 300; i++) {
 
@@ -167,56 +152,43 @@ public class RadServer extends RoverServerRunnable {
 				if(calc <= 1.00){
 					int index = Randomidx(elementslist1);
 					particle = elementslist1[index];
-//					Rad.data.put("Name", particle);
-//					Rad.data.put("Value", calc.toString());
 					rad.addMeasurement(particle, calc.toString());
 					rad.setJarray(particle, calc.toString());
-					//System.out.println(particle + " " + calc );
 				}
 				
 				else if(calc > 1.00 && calc < 7.00){
 					int index = Randomidx(elementslist2);
 					particle = elementslist2[index];
-//					Rad.data.put("Name", particle);
-//					Rad.data.put("Value", calc.toString());
 					rad.addMeasurement(particle, calc.toString());
 					rad.setJarray(particle, calc.toString());
-					//System.out.println(particle + " " + calc );
 				}
 				
 				else if(calc > 7.00 && calc < 10.00){
 					int index = Randomidx(elementslist3);
-					particle = elementslist3[index];
-//					Rad.data.put("Name", particle);
-//					Rad.data.put("Value", calc.toString());
+					particle = elementslist3[index];					
 					rad.addMeasurement(particle, calc.toString());
 					rad.setJarray(particle, calc.toString());
-					//System.out.println(particle + " " + calc );
 				}
 				
 				else if(calc > 10.00 && calc < 100.00){
 					int index = Randomidx(elementslist4);
 					particle = elementslist4[index];
-//					Rad.data.put("Name", particle);
-//					Rad.data.put("Value", calc.toString());
 					rad.addMeasurement(particle, calc.toString());
 					rad.setJarray(particle, calc.toString());
-					//System.out.println(particle + " " + calc );
+					
 				}
 				
-				else if(calc > 100.00 && calc < 100.00){
+				else if(calc > 100.00 && calc < 1000.00){
 					int index = Randomidx(elementslist5);
 					particle = elementslist5[index];
-//					Rad.data.put("Name", particle);
-//					Rad.data.put("Value", calc.toString());
 					rad.addMeasurement(particle, calc.toString());
 					rad.setJarray(particle, calc.toString());
-					//System.out.println(particle + " " + calc );
+					
 				}
 				
 				
 
-				//rad.addMeasurement(calc);
+				
 			}
 			
 			
@@ -240,66 +212,14 @@ public class RadServer extends RoverServerRunnable {
 
 	void writeJson() {
 		Gson gson = new GsonBuilder().setPrettyPrinting().create();
-
-		// Instantiate the writer since we're writing to a JSON file.
-		//FileWriter writer = null;
-//		try {
-//			writer = new FileWriter(path);
-//		} catch (IOException e) {
-//			e.printStackTrace();
-//		}
-
-		// Object is converted to a JSON String
-		//String jsonString = gson.toJson(rad);
 		
-
 		new JSON.MyWriter(rad.jarray, 3);
-		System.out.println("In to JSON");
-		System.out.println(rad.data);
-//		new JSON.MyWriter(rad.elements, 9015);
-
-		// Write the file
-//		try {
-//			writer.write(jsonString);
-//		} catch (IOException e) {
-//			e.printStackTrace();
-//		}
-
-		// Close the Writer
-//		try {
-//			writer.close();
-//		} catch (IOException e) {
-//			e.printStackTrace();
-//		}
+	
 	}
 
 	@SuppressWarnings("unchecked")
 	void readJson() {
-		//JSONParser parser = new JSONParser();
-		//JSONObject obj = null;
-//		try {
-//
-//			Object obj = parser.parse(new FileReader(path));
-//			JSONObject json = (JSONObject) obj;
-//
-//			rad.setState((String) json.get("state"));
-//
-//			JSONObject j = (JSONObject) json.get("data");
-//
-//			rad.setData(j);
-//
-//		} catch (FileNotFoundException e) {
-//			System.out.println("No file found. " + e.getMessage());
-//			// e.printStackTrace();
-//		} catch (IOException e) {
-//			System.out.println("I/O exception found.");
-//			e.printStackTrace();
-//		} catch (ParseException e) {
-//			System.out.println("Parse exception found.");
-//			e.printStackTrace();
-//		}
-		
-		//json.GlobalReader greader = new JSON.GlobalReader(3);
+	
 		JSON.GlobalReader greader = new JSON.GlobalReader(3);
 		JSONObject obj = greader.getJSONObject();
 		rad.setData(obj);
