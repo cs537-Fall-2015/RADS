@@ -152,6 +152,7 @@ public class RadServer extends RoverServerRunnable {
 					particle = elementslist1[index];
 					rad.addMeasurement(particle, calc.toString());
 					rad.setJarray(particle, calc.toString());
+					System.out.println("hii");
 				}
 				
 				else if(calc > 1.00 && calc < 7.00){
