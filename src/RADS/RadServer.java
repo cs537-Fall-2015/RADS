@@ -51,15 +51,10 @@ public class RadServer extends RoverServerRunnable {
 
 				System.out.println("RAD Server: Waiting for client request");
 
-				// read the JSON file
-				//readJson();
-
-				// do work
+				
 				doWork();
 				
-				writeJson();
-
-				// creating socket and waiting for client connection
+				
 				getRoverServerSocket().openSocket();
 
 				// read from socket to ObjectInputStream object
@@ -112,7 +107,7 @@ public class RadServer extends RoverServerRunnable {
 
 					message = "RAD power consumption is: "
 							+ rad.getPowerConsumption();
-				
+					
 				}
 				outputToAnotherObject.writeObject("Rad Server response - "
 						+ message);
@@ -121,7 +116,9 @@ public class RadServer extends RoverServerRunnable {
 				if (message.equalsIgnoreCase("exit"))
 					break;
 			}
+			
 			System.out.println("Server: Shutting down Socket server 1!!");
+			writeJson();
 			closeAll();
 		} catch (IOException e) {
 			e.printStackTrace();
@@ -131,6 +128,7 @@ public class RadServer extends RoverServerRunnable {
 		} catch (Exception error) {
 			System.out.println("Server: Error:" + error.getMessage());
 		}
+		
 
 	}
 
@@ -140,11 +138,11 @@ public class RadServer extends RoverServerRunnable {
 
 		if (rad.isScience()) {
 
-			message += "\nRAD: Now in SCIENCE mode. Reading data for 15 mins.";
-			message += "\nRAD: Adding measurements from the environment.";
-			message += "\nRAD: Adding radiation and particle data to json file";
+			//message += "\nRAD: Now in SCIENCE mode. Reading data for 15 mins.";
+			System.out.println("Adding measurements from the environment.");
+			System.out.println("Adding radiation and particle data to json file");
 			
-			for (int i = 0; i < 300; i++) {
+			for (int i = 0; i < 200; i++) {
 
 				Double calc = Rad.MIN_RADIATION
 						+ (Math.random() * ((Rad.MAX_RADIATION - Rad.MIN_RADIATION) + 1));
@@ -213,7 +211,7 @@ public class RadServer extends RoverServerRunnable {
 	void writeJson() {
 		Gson gson = new GsonBuilder().setPrettyPrinting().create();
 		
-		new JSON.MyWriter(rad.jarray, 3);
+		new JSON.MyWriter(rad.jarray, 5);
 	
 	}
 
