@@ -1,13 +1,22 @@
 package RADS;
 
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.Calendar;
 import java.util.HashMap;
+<<<<<<< HEAD
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Set;
+=======
+import java.util.Iterator;
+>>>>>>> develop
 
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
+import org.json.simple.parser.ParseException;
 
 public class Rad {
     
@@ -23,6 +32,7 @@ public class Rad {
     
     private double powerLevel;
     
+<<<<<<< HEAD
     public static ArrayList<String> part = new ArrayList<String>();
     
     //public static Set<String> part = new HashSet<String>();
@@ -31,12 +41,19 @@ public class Rad {
     
     //public static Set<String> radiation = new HashSet<String>();
     
+=======
+>>>>>>> develop
     public HashMap<String, String> data = new HashMap<String, String>();
     
     private String state = "RAD_OFF";
-    
+
     JSONArray jarray = new JSONArray();
     
+<<<<<<< HEAD
+    JSONArray jarray = new JSONArray();
+    
+=======
+>>>>>>> develop
     public JSONArray getJarray() {
 		return jarray;
 	}
@@ -46,10 +63,14 @@ public class Rad {
 		JSONObject obj = new JSONObject();
 		obj.put("particle", particle);
 		obj.put("Radiation",radlevel);
+<<<<<<< HEAD
 		part.add(particle);
 		radiation.add(radlevel);
+=======
+>>>>>>> develop
 		jarray.add(obj);
 	}
+
 
 	public Rad() {
     }
@@ -105,6 +126,14 @@ public class Rad {
         }
     }
     
+<<<<<<< HEAD
+=======
+//    public void addMeasurement(Double radiationLevel) {
+//        data.put(Calendar.getInstance().getTimeInMillis(), radiationLevel);
+//    }
+//    
+    
+>>>>>>> develop
     public void addMeasurement(String particle, String radiationLevel) {
     	//elements.add(radiationLevel);
     	
@@ -147,5 +176,32 @@ public class Rad {
     public void setPowerLevel(double powerLevel) {
         this.powerLevel = powerLevel;
     }
+    
+    public void readJSONData () {
+    	String filePath = "RADS/data.json";
+    	JSONParser parser = new JSONParser();
+    	try {
+    		JSONArray obj = (JSONArray) parser.parse(new FileReader(filePath));
+    		for(Object o : obj) {
+    			JSONObject jsonObject = (JSONObject) o;
+    			String dratestr = (String) jsonObject.get("Dose rates");
+    			Double drates = Double.parseDouble(dratestr);
+    			String time = (String) jsonObject.get("Time");
+    			if(drates > 290.0) {
+    				System.out.println("Heavy ions events getting detected at " + time + " with a dose rate " + drates);
+    			}
+    		}
+    	}  catch (FileNotFoundException e) {
+			System.out.println("No file found.");
+			e.printStackTrace();
+		} catch (IOException e) {
+			System.out.println("I/O exception found.");
+			e.printStackTrace();
+		} catch (ParseException e) {
+			System.out.println("Parse exception found.");
+			e.printStackTrace();
+		}
+    		
+    	}
     
 }

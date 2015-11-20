@@ -26,7 +26,10 @@ public class RadServer extends RoverServerRunnable {
 
 	private Rad rad = new Rad();
 	String path = "5.json";
+<<<<<<< HEAD
 	
+=======
+>>>>>>> develop
 	String particle;
 	
 	String[] elementslist1 = {"positron","electrons","gamma-rays"};
@@ -84,7 +87,7 @@ public class RadServer extends RoverServerRunnable {
 					// and clears it
 					rad.checkout();
 					message = "Rad Data:" + rad.getData();
-
+					rad.readJSONData();
 					//rad.clearData();
 
 				} else if (message.equals("RAD_SHUTDOWN")) {
@@ -138,15 +141,25 @@ public class RadServer extends RoverServerRunnable {
 
 		if (rad.isScience()) {
 
+<<<<<<< HEAD
 			//message += "\nRAD: Now in SCIENCE mode. Reading data for 15 mins.";
 			System.out.println("Adding measurements from the environment.");
 			System.out.println("Adding radiation and particle data to json file");
 			
+=======
+			message += "\nRAD: Now in SCIENCE mode. Reading data for 15 mins.";
+			message += "\nRAD: Adding measurements from the environment.";
+
+>>>>>>> develop
 			for (int i = 0; i < 200; i++) {
 
 				Double calc = Rad.MIN_RADIATION
 						+ (Math.random() * ((Rad.MAX_RADIATION - Rad.MIN_RADIATION) + 1));
+<<<<<<< HEAD
 						
+=======
+				
+>>>>>>> develop
 				if(calc <= 1.00){
 					int index = Randomidx(elementslist1);
 					particle = elementslist1[index];
@@ -184,10 +197,21 @@ public class RadServer extends RoverServerRunnable {
 					rad.setJarray(particle, calc.toString());
 					
 				}
+<<<<<<< HEAD
 				
 				
 
 				
+=======
+
+				//rad.addMeasurement(calc);
+				
+
+//				if(calc > 1000) {
+//					rad.setHeJson(calc);
+//				}
+
+>>>>>>> develop
 			}
 			
 			
@@ -212,8 +236,27 @@ public class RadServer extends RoverServerRunnable {
 	void writeJson() {
 		Gson gson = new GsonBuilder().setPrettyPrinting().create();
 		
+<<<<<<< HEAD
 		new JSON.MyWriter(rad.jarray, 5);
 	
+=======
+
+		new JSON.MyWriter(rad.jarray, 5); 
+
+		// Write the file
+//		try {
+//			writer.write(jsonString);
+//		} catch (IOException e) {
+//			e.printStackTrace();
+//		}
+
+		// Close the Writer
+//		try {
+//			writer.close();
+//		} catch (IOException e) {
+//			e.printStackTrace();
+//		}
+>>>>>>> develop
 	}
 
 	@SuppressWarnings("unchecked")
@@ -225,7 +268,10 @@ public class RadServer extends RoverServerRunnable {
 
 	}
 	
+<<<<<<< HEAD
 	
+=======
+>>>>>>> develop
 	public int Randomidx(String[] data){
 		int index = new java.util.Random().nextInt(data.length);
 		return index;
