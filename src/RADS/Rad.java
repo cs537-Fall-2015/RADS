@@ -26,20 +26,22 @@ public class Rad {
     
     private double powerLevel;
     
-    private HashMap<Long, Double> data = new HashMap<Long, Double>();
+    public HashMap<String, String> data = new HashMap<String, String>();
     
     private String state = "RAD_OFF";
 
-    private JSONArray heJson;
+    JSONArray jarray = new JSONArray();
     
-    public JSONArray getHeJson() {
-		return heJson;
+    public JSONArray getJarray() {
+		return jarray;
 	}
 
-	@SuppressWarnings("unchecked")
-	public void setHeJson(Double radLevel) {
-		
-		heJson.add(radLevel);
+	@SuppressWarnings({ "unchecked" })
+	public void setJarray(String particle, String radlevel ) {
+		JSONObject obj = new JSONObject();
+		obj.put("particle", particle);
+		obj.put("Radiation",radlevel);
+		jarray.add(obj);
 	}
 
 
@@ -97,8 +99,16 @@ public class Rad {
         }
     }
     
-    public void addMeasurement(Double radiationLevel) {
-        data.put(Calendar.getInstance().getTimeInMillis(), radiationLevel);
+//    public void addMeasurement(Double radiationLevel) {
+//        data.put(Calendar.getInstance().getTimeInMillis(), radiationLevel);
+//    }
+//    
+    
+    public void addMeasurement(String particle, String radiationLevel) {
+    	//elements.add(radiationLevel);
+    	
+        data.put(particle, radiationLevel);
+  
     }
     
     public void clearData() {
@@ -107,7 +117,7 @@ public class Rad {
     
     // Getters/Setters
     
-    public HashMap<Long, Double> getData() {
+    public HashMap<String, String> getData() {
         if (state.equals("RAD_CHECKOUT")) {
             return data;
         } else {
@@ -115,7 +125,7 @@ public class Rad {
         }
     }
     
-    public void setData(HashMap<Long, Double> data) {
+    public void setData(HashMap<String, String> data) {
         this.data = data;
     }
     
@@ -148,7 +158,7 @@ public class Rad {
     			Double drates = Double.parseDouble(dratestr);
     			String time = (String) jsonObject.get("Time");
     			if(drates > 290.0) {
-    				System.out.println(drates + " " + time);
+    				System.out.println("Heavy ions events getting detected at " + time + " with a dose rate " + drates);
     			}
     		}
     	}  catch (FileNotFoundException e) {

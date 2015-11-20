@@ -24,7 +24,18 @@ import com.google.gson.GsonBuilder;
 public class RadServer extends RoverServerRunnable {
 
 	private Rad rad = new Rad();
-	String path = "3.json";
+	String path = "5.json";
+	String particle;
+	
+	String[] elementslist1 = {"positron","electrons","gamma-rays"};
+	
+	String[] elementslist2 = {"electrons","gamma-rays"};
+	
+	String[] elementslist3 = {"neutrons" ,"electrons" , "ions(Li-O)" , "p-He"};
+	
+	String[] elementslist4 = {"ions(Li-O)" , "ions(Mg-Fe)" , "p-He"};
+	
+	String[] elementslist5 = {"ions(Li-O)" , "ions(Mg-Fe)"};
 
 	public RadServer(int port) throws IOException {
 		super(port);
@@ -138,12 +149,50 @@ public class RadServer extends RoverServerRunnable {
 			message += "\nRAD: Now in SCIENCE mode. Reading data for 15 mins.";
 			message += "\nRAD: Adding measurements from the environment.";
 
-			for (int i = 0; i < 15; i++) {
+			for (int i = 0; i < 200; i++) {
 
 				Double calc = Rad.MIN_RADIATION
 						+ (Math.random() * ((Rad.MAX_RADIATION - Rad.MIN_RADIATION) + 1));
+				
+				if(calc <= 1.00){
+					int index = Randomidx(elementslist1);
+					particle = elementslist1[index];
+					rad.addMeasurement(particle, calc.toString());
+					rad.setJarray(particle, calc.toString());
+					System.out.println("hii");
+				}
+				
+				else if(calc > 1.00 && calc < 7.00){
+					int index = Randomidx(elementslist2);
+					particle = elementslist2[index];
+					rad.addMeasurement(particle, calc.toString());
+					rad.setJarray(particle, calc.toString());
+				}
+				
+				else if(calc > 7.00 && calc < 10.00){
+					int index = Randomidx(elementslist3);
+					particle = elementslist3[index];					
+					rad.addMeasurement(particle, calc.toString());
+					rad.setJarray(particle, calc.toString());
+				}
+				
+				else if(calc > 10.00 && calc < 100.00){
+					int index = Randomidx(elementslist4);
+					particle = elementslist4[index];
+					rad.addMeasurement(particle, calc.toString());
+					rad.setJarray(particle, calc.toString());
+					
+				}
+				
+				else if(calc > 100.00 && calc < 1000.00){
+					int index = Randomidx(elementslist5);
+					particle = elementslist5[index];
+					rad.addMeasurement(particle, calc.toString());
+					rad.setJarray(particle, calc.toString());
+					
+				}
 
-				rad.addMeasurement(calc);
+				//rad.addMeasurement(calc);
 				
 
 //				if(calc > 1000) {
@@ -184,7 +233,7 @@ public class RadServer extends RoverServerRunnable {
 		//String jsonString = gson.toJson(rad);
 		
 
-		new JSON.MyWriter(rad, 3); 
+		new JSON.MyWriter(rad.jarray, 5); 
 
 		// Write the file
 //		try {
@@ -232,5 +281,10 @@ public class RadServer extends RoverServerRunnable {
 		JSONObject obj = greader.getJSONObject();
 		rad.setData(obj);
 
+	}
+	
+	public int Randomidx(String[] data){
+		int index = new java.util.Random().nextInt(data.length);
+		return index;
 	}
 }
