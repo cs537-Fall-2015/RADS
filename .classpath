@@ -5,6 +5,10 @@
 	<classpathentry kind="lib" path="lib/gson-2.4.jar"/>
 	<classpathentry kind="lib" path="lib/json-simple-1.1.jar"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+	<classpathentry kind="lib" path="/Users/shreyvithalani/Desktop/CS537/jfreechart-1.0.19/jfreechart-1.0.19-demo.jar"/>
+>>>>>>> Rads-shrey
 =======
 	<classpathentry kind="lib" path="/Users/shreyvithalani/Desktop/CS537/jfreechart-1.0.19/jfreechart-1.0.19-demo.jar"/>
 >>>>>>> Rads-shrey
