@@ -51,22 +51,10 @@ public class RadServer extends RoverServerRunnable {
 
 				System.out.println("RAD Server: Waiting for client request");
 
-<<<<<<< HEAD:src/RADS/RadServer.java
-				// read the JSON file
-				//readJson();
-
-				// do work
-				doWork();
-				
-				writeJson();
-
-				// creating socket and waiting for client connection
-=======
 				
 				doWork();
 				
 				
->>>>>>> Rads-shrey:src/RADS/RadServer.java
 				getRoverServerSocket().openSocket();
 
 				// read from socket to ObjectInputStream object
@@ -119,11 +107,7 @@ public class RadServer extends RoverServerRunnable {
 
 					message = "RAD power consumption is: "
 							+ rad.getPowerConsumption();
-<<<<<<< HEAD:src/RADS/RadServer.java
-				
-=======
 					
->>>>>>> Rads-shrey:src/RADS/RadServer.java
 				}
 				outputToAnotherObject.writeObject("Rad Server response - "
 						+ message);
@@ -134,10 +118,7 @@ public class RadServer extends RoverServerRunnable {
 			}
 			
 			System.out.println("Server: Shutting down Socket server 1!!");
-<<<<<<< HEAD:src/RADS/RadServer.java
-=======
 			writeJson();
->>>>>>> Rads-shrey:src/RADS/RadServer.java
 			closeAll();
 		} catch (IOException e) {
 			e.printStackTrace();
@@ -157,26 +138,12 @@ public class RadServer extends RoverServerRunnable {
 
 		if (rad.isScience()) {
 
-<<<<<<< HEAD:src/RADS/RadServer.java
-			message += "\nRAD: Now in SCIENCE mode. Reading data for 15 mins.";
-			message += "\nRAD: Adding measurements from the environment.";
-			message += "\nRAD: Adding radiation and particle data to json file";
-			
-			for (int i = 0; i < 300; i++) {
-
-<<<<<<< HEAD:src/RADS/RadServer.java
-			for (int i = 0; i < 15; i++) {
-
-=======
->>>>>>> Rads-shrey:src/RADS/RadServer.java
-=======
 			//message += "\nRAD: Now in SCIENCE mode. Reading data for 15 mins.";
 			System.out.println("Adding measurements from the environment.");
 			System.out.println("Adding radiation and particle data to json file");
 			
 			for (int i = 0; i < 200; i++) {
 
->>>>>>> Rads-shrey:src/RADS/RadServer.java
 				Double calc = Rad.MIN_RADIATION
 						+ (Math.random() * ((Rad.MAX_RADIATION - Rad.MIN_RADIATION) + 1));
 						
@@ -185,6 +152,7 @@ public class RadServer extends RoverServerRunnable {
 					particle = elementslist1[index];
 					rad.addMeasurement(particle, calc.toString());
 					rad.setJarray(particle, calc.toString());
+					System.out.println("hii");
 				}
 				
 				else if(calc > 1.00 && calc < 7.00){
@@ -219,24 +187,11 @@ public class RadServer extends RoverServerRunnable {
 				
 				
 
-<<<<<<< HEAD:src/RADS/RadServer.java
-<<<<<<< HEAD:src/RADS/RadServer.java
-				rad.addMeasurement(calc);
-				
-//				if(calc > 1000) {
-//					rad.setHeJson(calc);
-//				}
-			}
-			//System.out.println(rad.getHeJson());
-=======
-=======
->>>>>>> Rads-shrey:src/RADS/RadServer.java
 				
 			}
 			
 			
 
->>>>>>> Rads-shrey:src/RADS/RadServer.java
 			message += "\nRAD: Collection completed.\nGoing to sleep for 45 mins";
 
 			Thread.sleep(15000); // sleep for 15 seconds
@@ -256,83 +211,14 @@ public class RadServer extends RoverServerRunnable {
 
 	void writeJson() {
 		Gson gson = new GsonBuilder().setPrettyPrinting().create();
-<<<<<<< HEAD:src/RADS/RadServer.java
-<<<<<<< HEAD:src/RADS/RadServer.java
-
-		// Instantiate the writer since we're writing to a JSON file.
-		//FileWriter writer = null;
-//		try {
-//			writer = new FileWriter(path);
-//		} catch (IOException e) {
-//			e.printStackTrace();
-//		}
-
-		// Object is converted to a JSON String
-		//String jsonString = gson.toJson(rad);
-		
-
-		new JSON.MyWriter(rad, 3); 
-
-		// Write the file
-//		try {
-//			writer.write(jsonString);
-//		} catch (IOException e) {
-//			e.printStackTrace();
-//		}
-
-		// Close the Writer
-//		try {
-//			writer.close();
-//		} catch (IOException e) {
-//			e.printStackTrace();
-//		}
-=======
-		
-		new JSON.MyWriter(rad.jarray, 3);
-	
->>>>>>> Rads-shrey:src/RADS/RadServer.java
-=======
 		
 		new JSON.MyWriter(rad.jarray, 5);
 	
->>>>>>> Rads-shrey:src/RADS/RadServer.java
 	}
 
 	@SuppressWarnings("unchecked")
 	void readJson() {
-<<<<<<< HEAD:src/RADS/RadServer.java
-<<<<<<< HEAD:src/RADS/RadServer.java
-		//JSONParser parser = new JSONParser();
-		//JSONObject obj = null;
-//		try {
-//
-//			Object obj = parser.parse(new FileReader(path));
-//			JSONObject json = (JSONObject) obj;
-//
-//			rad.setState((String) json.get("state"));
-//
-//			JSONObject j = (JSONObject) json.get("data");
-//
-//			rad.setData(j);
-//
-//		} catch (FileNotFoundException e) {
-//			System.out.println("No file found. " + e.getMessage());
-//			// e.printStackTrace();
-//		} catch (IOException e) {
-//			System.out.println("I/O exception found.");
-//			e.printStackTrace();
-//		} catch (ParseException e) {
-//			System.out.println("Parse exception found.");
-//			e.printStackTrace();
-//		}
-		
-		//json.GlobalReader greader = new JSON.GlobalReader(3);
-=======
 	
->>>>>>> Rads-shrey:src/RADS/RadServer.java
-=======
-	
->>>>>>> Rads-shrey:src/RADS/RadServer.java
 		JSON.GlobalReader greader = new JSON.GlobalReader(3);
 		JSONObject obj = greader.getJSONObject();
 		rad.setData(obj);
