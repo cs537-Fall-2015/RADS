@@ -1,10 +1,16 @@
 package RADS;
 
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.Calendar;
 import java.util.HashMap;
+import java.util.Iterator;
 
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
+import org.json.simple.parser.ParseException;
 
 public class Rad {
     
@@ -23,9 +29,7 @@ public class Rad {
     private HashMap<Long, Double> data = new HashMap<Long, Double>();
     
     private String state = "RAD_OFF";
-    
-<<<<<<< HEAD
-=======
+
     private JSONArray heJson;
     
     public JSONArray getHeJson() {
@@ -37,7 +41,7 @@ public class Rad {
 		
 		heJson.add(radLevel);
 	}
->>>>>>> master
+
 
 	public Rad() {
     }
@@ -132,5 +136,32 @@ public class Rad {
     public void setPowerLevel(double powerLevel) {
         this.powerLevel = powerLevel;
     }
+    
+    public void readJSONData () {
+    	String filePath = "RADS/data.json";
+    	JSONParser parser = new JSONParser();
+    	try {
+    		JSONArray obj = (JSONArray) parser.parse(new FileReader(filePath));
+    		for(Object o : obj) {
+    			JSONObject jsonObject = (JSONObject) o;
+    			String dratestr = (String) jsonObject.get("Dose rates");
+    			Double drates = Double.parseDouble(dratestr);
+    			String time = (String) jsonObject.get("Time");
+    			if(drates > 290.0) {
+    				System.out.println(drates + " " + time);
+    			}
+    		}
+    	}  catch (FileNotFoundException e) {
+			System.out.println("No file found.");
+			e.printStackTrace();
+		} catch (IOException e) {
+			System.out.println("I/O exception found.");
+			e.printStackTrace();
+		} catch (ParseException e) {
+			System.out.println("Parse exception found.");
+			e.printStackTrace();
+		}
+    		
+    	}
     
 }
