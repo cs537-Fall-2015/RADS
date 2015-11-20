@@ -3,20 +3,8 @@ package RADS.RADS_Test;
 import generic.RoverThreadHandler;
 
 import java.io.IOException;
-<<<<<<< HEAD:src/RADS/RADS_Test/RadMain.java
+import RADS.RadServer;
 
-import RADS.RadServer;
-=======
-import RADS.RadServer;
-import org.jfree.chart.ChartFactory;
-import org.jfree.chart.ChartPanel; 
-import org.jfree.chart.JFreeChart; 
-import org.jfree.chart.plot.PlotOrientation;
-import org.jfree.data.category.CategoryDataset; 
-import org.jfree.data.category.DefaultCategoryDataset; 
-import org.jfree.ui.ApplicationFrame; 
-import org.jfree.ui.RefineryUtilities;
->>>>>>> Rads-shrey:src/RADS/RADS_Test/RadMain.java
 
 public class RadMain {
 
@@ -24,15 +12,7 @@ public class RadMain {
 
 		// Each module has its own port
 
-<<<<<<< HEAD:src/RADS/RADS_Test/RadMain.java
-
-		int port_one = 9026;
-
-	
-
-=======
 		int port_one = 9020;
->>>>>>> Rads-shrey:src/RADS/RADS_Test/RadMain.java
 
 
 		try {
@@ -64,9 +44,5 @@ public class RadMain {
 	public void test () {
 		System.out.println("testing the module");
 	}
-<<<<<<< HEAD:src/RADS/RADS_Test/RadMain.java
-
-=======
 	
->>>>>>> Rads-shrey:src/RADS/RADS_Test/RadMain.java
 }
