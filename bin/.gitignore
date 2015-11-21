@@ -3,6 +3,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+/gson-2.4.jar
+/json-simple-1.1.jar
+/RADS/
+=======
+>>>>>>> develop
+<<<<<<< HEAD
 /JSON/
 =======
 /RADS/
@@ -10,6 +17,7 @@
 /gson-2.4.jar
 /json-simple-1.1.jar
 >>>>>>> develop
+<<<<<<< HEAD
 =======
 /RADS/
 >>>>>>> Rads-shrey
@@ -28,5 +36,11 @@
 <<<<<<< HEAD
 >>>>>>> my-working-branch
 =======
+<<<<<<< HEAD
 /generic/
 >>>>>>> Rads-shrey
+=======
+>>>>>>> master
+/generic/
+>>>>>>> develop
+>>>>>>> origin/master
