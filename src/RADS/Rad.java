@@ -5,23 +5,22 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.Calendar;
 import java.util.HashMap;
-<<<<<<< HEAD
+
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Set;
-=======
+
 import java.util.Iterator;
->>>>>>> develop
+
 
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
-<<<<<<< HEAD
-=======
 
 
->>>>>>> Rads-shrey
+
+
 
 public class Rad {
     
@@ -37,7 +36,7 @@ public class Rad {
     
     private double powerLevel;
     
-<<<<<<< HEAD
+
     public static ArrayList<String> part = new ArrayList<String>();
     
     
@@ -46,19 +45,17 @@ public class Rad {
     
     
     
-=======
->>>>>>> develop
+
     public HashMap<String, String> data = new HashMap<String, String>();
     
     private String state = "RAD_OFF";
 
     JSONArray jarray = new JSONArray();
     
-<<<<<<< HEAD
+
     JSONArray jarray = new JSONArray();
     
-=======
->>>>>>> develop
+
     public JSONArray getJarray() {
 		return jarray;
 	}
@@ -68,11 +65,10 @@ public class Rad {
 		JSONObject obj = new JSONObject();
 		obj.put("particle", particle);
 		obj.put("Radiation",radlevel);
-<<<<<<< HEAD
+
 		part.add(particle);
 		radiation.add(radlevel);
-=======
->>>>>>> develop
+
 		jarray.add(obj);
 	}
 
@@ -131,14 +127,12 @@ public class Rad {
         }
     }
     
-<<<<<<< HEAD
-=======
 //    public void addMeasurement(Double radiationLevel) {
 //        data.put(Calendar.getInstance().getTimeInMillis(), radiationLevel);
 //    }
 //    
     
->>>>>>> develop
+
     public void addMeasurement(String particle, String radiationLevel) {
     	//elements.add(radiationLevel);
     	
@@ -182,10 +176,7 @@ public class Rad {
         this.powerLevel = powerLevel;
     }
     
-<<<<<<< HEAD
-=======
-    
->>>>>>> Rads-shrey
+
     public void readJSONData () {
     	String filePath = "RADS/data.json";
     	JSONParser parser = new JSONParser();

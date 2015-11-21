@@ -12,15 +12,10 @@ public class RadMain {
 
 		// Each module has its own port
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-		int port_one = 9020;
-=======
-		int port_one = 9029;
->>>>>>> develop
-=======
+
+		
 		int port_one = 9022;
->>>>>>> Rads-shrey
+
 
 
 		try {

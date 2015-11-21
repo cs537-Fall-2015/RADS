@@ -26,7 +26,7 @@ public class RadClient extends RoverClientRunnable {
     	String line = null;
     	String cmd = null;
     	while ((line = br.readLine()) != null) {
-<<<<<<< HEAD
+
     		cmd = line + "" ;
     		sendMessage(cmd);
     	}
@@ -61,7 +61,7 @@ public class RadClient extends RoverClientRunnable {
 //        sendMessage("RAD_IS_ON");
 //        
 //        sendMessage("exit");
-<<<<<<< HEAD
+
     	//sendMessage();
     	try {
 			readCommand();
@@ -72,7 +72,7 @@ public class RadClient extends RoverClientRunnable {
 			// TODO Auto-generated catch block
 			e1.printStackTrace();
 		}
-=======
+
     	
     	try {
     		readCommand();
@@ -85,7 +85,7 @@ public class RadClient extends RoverClientRunnable {
     		}
     	
     	
->>>>>>> Rads-shrey
+
         
         try {
             closeAll();
