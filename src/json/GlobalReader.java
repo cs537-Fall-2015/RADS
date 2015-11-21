@@ -15,7 +15,7 @@ public class GlobalReader {
 	public GlobalReader(int groupNumber) {
 		
 		// You no longer need to specify a filepath, only a filename
-		String myFilePath = groupNumber + ".json";
+		String myFilePath = "RADS/" + groupNumber + ".json";
 		
 		JSONParser parser = new JSONParser();
 		

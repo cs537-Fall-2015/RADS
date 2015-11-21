@@ -1,6 +1,11 @@
 package RADS.RADS_Test;
 
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.net.InetAddress;
@@ -14,24 +19,51 @@ public class RadClient extends RoverClientRunnable {
         super(port, host);
     }
     
+    public String readCommand() throws IOException, FileNotFoundException {
+    	File file = new File("RADS/commands.txt");
+    	FileInputStream fis = new FileInputStream(file);
+    	BufferedReader br = new BufferedReader(new InputStreamReader(fis));
+    	String line = null;
+    	String cmd = null;
+    	while ((line = br.readLine()) != null) {
+    	cmd = line + "" ;
+    	sendMessage(cmd);
+    	}
+    	br.close();
+		return cmd;
+   
+    }
+    
     @Override
     public void run() {
         
-        sendMessage("RAD_BOOTUP");
-        
-        sendMessage("RAD_IS_ON");
-        
-        sendMessage("RAD_GET_POWER");
-        
-        sendMessage("RAD_CHECKOUT"); // get data and clear it. I suppose you would just read from the JSON file
-        
-        sendMessage("RAD_SHUTDOWN");
-        
-        sendMessage("RAD_OFF");
-        
-        sendMessage("RAD_IS_ON");
-        
-        sendMessage("exit");
+//        sendMessage("RAD_BOOTUP");
+//        
+//        sendMessage("RAD_IS_ON");
+//        
+//        sendMessage("RAD_GET_POWER");
+//        
+//        sendMessage("RAD_CHECKOUT"); // get data and clear it. I suppose you would just read from the JSON file
+//        
+//        sendMessage("RAD_SHUTDOWN");
+//        
+//        sendMessage("RAD_OFF");
+//        
+//        sendMessage("RAD_IS_ON");
+//        
+//        sendMessage("exit");
+    	
+    	try {
+    		readCommand();
+    		} catch (FileNotFoundException e1) {
+    		// TODO Auto-generated catch block
+    		e1.printStackTrace();
+    		} catch (IOException e1) {
+    		// TODO Auto-generated catch block
+    		e1.printStackTrace();
+    		}
+    	
+    	
         
         try {
             closeAll();
