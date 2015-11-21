@@ -17,6 +17,11 @@ import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> Rads-shrey
 
 public class Rad {
     
@@ -35,11 +40,11 @@ public class Rad {
 <<<<<<< HEAD
     public static ArrayList<String> part = new ArrayList<String>();
     
-    //public static Set<String> part = new HashSet<String>();
+    
     
     public static ArrayList<String> radiation = new ArrayList<String>();
     
-    //public static Set<String> radiation = new HashSet<String>();
+    
     
 =======
 >>>>>>> develop
@@ -177,6 +182,10 @@ public class Rad {
         this.powerLevel = powerLevel;
     }
     
+<<<<<<< HEAD
+=======
+    
+>>>>>>> Rads-shrey
     public void readJSONData () {
     	String filePath = "RADS/data.json";
     	JSONParser parser = new JSONParser();

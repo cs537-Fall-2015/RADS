@@ -20,7 +20,7 @@ public class MyWriter {
 		// groupNumber is your group number
 		
 		// This file is saved into the source folder for this Java Project
-		String myFilePath = groupNumber + ".json";
+		String myFilePath = "RADS/" + groupNumber + ".json";
 
 		// Gson is used to create a json object that is spaced nicely
 		Gson gson = new GsonBuilder().setPrettyPrinting().create();

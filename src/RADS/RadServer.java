@@ -1,11 +1,11 @@
 package RADS;
 
 import generic.RoverServerRunnable;
-
 import JSON.MyWriter;
 import JSON.GlobalReader;
 import JSON.MyWriter;
 import JSON.GlobalReader;
+import RADS.RADS_Test.XYLineChart_AWT;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -14,6 +14,7 @@ import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 
+import org.jfree.ui.RefineryUtilities;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
@@ -86,8 +87,18 @@ public class RadServer extends RoverServerRunnable {
 					// sends back data
 					// and clears it
 					rad.checkout();
+<<<<<<< HEAD
 					message = "Rad Data:" + rad.getData();
 					rad.readJSONData();
+=======
+					
+					rad.readJSONData();
+					XYLineChart_AWT chart = new XYLineChart_AWT("Dose rate", "");
+				      chart.pack( );          
+				      RefineryUtilities.centerFrameOnScreen( chart );          
+				      chart.setVisible( true ); 
+
+>>>>>>> Rads-shrey
 					//rad.clearData();
 
 				} else if (message.equals("RAD_SHUTDOWN")) {
