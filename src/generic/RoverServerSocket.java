@@ -1,4 +1,4 @@
-package generic;
+package src.generic;
 
 import java.io.IOException;
 import java.net.ServerSocket;
