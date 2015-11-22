@@ -1,10 +1,10 @@
 package RADS;
 
 import generic.RoverServerRunnable;
-import JSON.MyWriter;
-import JSON.GlobalReader;
-import JSON.MyWriter;
-import JSON.GlobalReader;
+import json.MyWriter;
+import json.GlobalReader;
+import json.MyWriter;
+import json.GlobalReader;
 import RADS.RADS_Test.XYLineChart_AWT;
 
 import java.io.FileNotFoundException;
@@ -217,14 +217,14 @@ public class RadServer extends RoverServerRunnable {
 	void writeJson() {
 		Gson gson = new GsonBuilder().setPrettyPrinting().create();
 		
-		new JSON.MyWriter(rad.jarray, 5);
+		new json.MyWriter(rad.jarray, 5);
 	
 	}
 
 	@SuppressWarnings("unchecked")
 	void readJson() {
 	
-		JSON.GlobalReader greader = new JSON.GlobalReader(3);
+		json.GlobalReader greader = new json.GlobalReader(3);
 		JSONObject obj = greader.getJSONObject();
 		rad.setData(obj);
 
