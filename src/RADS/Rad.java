@@ -1,18 +1,24 @@
-package RADS;
+package src.RADS;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.Calendar;
 import java.util.HashMap;
+
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Set;
+
+import java.util.Iterator;
+
 
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
+
+
 
 
 
@@ -30,6 +36,7 @@ public class Rad {
     
     private double powerLevel;
     
+
     public static ArrayList<String> part = new ArrayList<String>();
     
     
@@ -38,12 +45,17 @@ public class Rad {
     
     
     
+
     public HashMap<String, String> data = new HashMap<String, String>();
     
     private String state = "RAD_OFF";
-    
+
     JSONArray jarray = new JSONArray();
     
+
+    JSONArray jarray = new JSONArray();
+    
+
     public JSONArray getJarray() {
 		return jarray;
 	}
@@ -53,10 +65,13 @@ public class Rad {
 		JSONObject obj = new JSONObject();
 		obj.put("particle", particle);
 		obj.put("Radiation",radlevel);
+
 		part.add(particle);
 		radiation.add(radlevel);
+
 		jarray.add(obj);
 	}
+
 
 	public Rad() {
     }
@@ -112,6 +127,12 @@ public class Rad {
         }
     }
     
+//    public void addMeasurement(Double radiationLevel) {
+//        data.put(Calendar.getInstance().getTimeInMillis(), radiationLevel);
+//    }
+//    
+    
+
     public void addMeasurement(String particle, String radiationLevel) {
     	//elements.add(radiationLevel);
     	
@@ -155,7 +176,7 @@ public class Rad {
         this.powerLevel = powerLevel;
     }
     
-    
+
     public void readJSONData () {
     	String filePath = "RADS/data.json";
     	JSONParser parser = new JSONParser();

@@ -12,7 +12,14 @@ public class RadMain {
 
 		// Each module has its own port
 
+
+
+		
 		int port_one = 9022;
+
+		int port_one = 9003;
+
+
 
 
 		try {
