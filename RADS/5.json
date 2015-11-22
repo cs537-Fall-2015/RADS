@@ -1,1598 +1,1602 @@
 [
   {
-    "Radiation": "768.4300183621096",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "700.2221200221218",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "668.8860384885829",
+    "Radiation": "922.0920889664678",
     "particle": "ions(Li-O)"
   },
   {
-    "Radiation": "335.6528982444973",
+    "Radiation": "362.55769750971916",
     "particle": "ions(Mg-Fe)"
   },
   {
-    "Radiation": "250.16687138847965",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "548.8882315210296",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "519.0673258686722",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "596.5542138297776",
+    "Radiation": "213.44796242515176",
     "particle": "ions(Li-O)"
   },
   {
-    "Radiation": "173.3383432624541",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "915.1211507634147",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "789.0328718056508",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "579.916447891333",
+    "Radiation": "262.38567273388463",
     "particle": "ions(Li-O)"
   },
   {
-    "Radiation": "773.304249147769",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "966.3474095711873",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "447.5801654440525",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "24.9803694376665",
+    "Radiation": "14.900012024665479",
     "particle": "ions(Li-O)"
   },
   {
-    "Radiation": "137.33073938902308",
+    "Radiation": "789.9466932216859",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "549.1262377180119",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "11.634598205323327",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "546.2560434018147",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "195.72863254858393",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "53.34812497339338",
     "particle": "ions(Li-O)"
   },
   {
-    "Radiation": "244.8206071740049",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "612.1315230740265",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "349.09762358501814",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "224.76613501261207",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "198.3773775450821",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "28.900066557845086",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "304.4652326902684",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "154.18746917896016",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "697.1797693628262",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "230.2073489232257",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "62.63593778647474",
+    "Radiation": "79.58582571869442",
     "particle": "p-He"
   },
   {
-    "Radiation": "326.59357993094693",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "650.3822086697579",
+    "Radiation": "577.4659073998329",
     "particle": "ions(Li-O)"
   },
   {
-    "Radiation": "156.96184231798105",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "191.95911363768627",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "441.70542160527486",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "389.8454414221385",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "735.9433560116",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "338.7052572806639",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "543.5492213643721",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "830.3567899680471",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "562.4559704331061",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "30.82760112917141",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "806.3399819186787",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "547.3053461086445",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "599.5044563060184",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "912.1185053202694",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "894.4535903663722",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "828.0043921687983",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "531.722272121895",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "879.4254478006181",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "380.27400438079235",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "415.8495111930664",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "230.0282959915267",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "76.20184857365182",
+    "Radiation": "44.58919510312301",
     "particle": "p-He"
   },
   {
-    "Radiation": "883.6287544033905",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "170.84954782036635",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "587.0186254075892",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "396.5807267666929",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "299.18081695649045",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "87.07100501761384",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "838.205282343101",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "188.77665223305652",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "749.4279884795131",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "165.8909247698706",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "377.798951577142",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "157.3400676097595",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "629.2714307422742",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "442.8630089414444",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "981.8945864896341",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "10.11168498079957",
-    "particle": "p-He"
-  },
-  {
-    "Radiation": "467.15484273358356",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "64.86285679389022",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "293.66043321246946",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "287.44997759950377",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "117.74254752056463",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "694.9934276105388",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "432.34878368870056",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "932.3338497121282",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "201.10021703936602",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "662.9999277089447",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "547.2448513570895",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "593.9751377655696",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "584.6660527695485",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "247.9642409933905",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "229.94424462011443",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "361.410137973777",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "145.25083314943572",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "165.32377038559906",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "733.7036049894813",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "595.3784634958103",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "8.386281769738781",
-    "particle": "neutrons"
-  },
-  {
-    "Radiation": "854.1866276013504",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "59.339573909806624",
-    "particle": "p-He"
-  },
-  {
-    "Radiation": "812.5385694641745",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "945.1479162601357",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "434.3958729543652",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "120.86136748201967",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "112.71381182518138",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "644.5157685087396",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "276.22899571945203",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "329.60933616589847",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "473.3113738507803",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "138.19918570412463",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "946.8060532654083",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "175.33793575953356",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "332.00637117832173",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "716.6457277389471",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "949.9192876444313",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "580.72526879378",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "301.3379749037822",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "317.97297410513835",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "73.69043117666271",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "70.21323429362916",
-    "particle": "p-He"
-  },
-  {
-    "Radiation": "493.62154861527125",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "522.9121812364028",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "341.0082985196054",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "100.58254253537287",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "917.4407433674745",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "938.6279550230811",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "530.0978960338989",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "191.64512659154505",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "628.1471889966502",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "4.183881670809102",
-    "particle": "electrons"
-  },
-  {
-    "Radiation": "1.3255910246202809",
-    "particle": "electrons"
-  },
-  {
-    "Radiation": "881.592769361215",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "839.9615632921455",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "975.3567838713318",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "73.84966701781762",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "886.8748546272446",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "990.5400231478955",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "101.36266921533722",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "517.5847847961605",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "284.39174372585677",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "849.6419321573524",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "871.8475571996828",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "831.560652887554",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "961.5797663307982",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "104.4115001021776",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "461.5128692006936",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "842.119630320052",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "61.53360935791963",
-    "particle": "p-He"
-  },
-  {
-    "Radiation": "507.6644679918309",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "463.1910595469263",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "816.7169627052265",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "684.7583529304868",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "584.8532368031349",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "315.36016459534665",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "727.0576536281386",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "592.0688633842761",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "123.96895397165628",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "822.7879937906638",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "517.0287289653648",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "296.9569505149482",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "129.62793387465496",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "590.8264099279436",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "229.16317677652503",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "474.028702803888",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "704.2804879531692",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "215.83394793705492",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "627.2021845631169",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "281.3733289565223",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "368.27570000467983",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "572.9910217805466",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "511.80591131296467",
+    "Radiation": "681.4379566490267",
     "particle": "ions(Li-O)"
   },
   {
-    "Radiation": "853.1627000454531",
+    "Radiation": "555.4173150282152",
     "particle": "ions(Li-O)"
   },
   {
-    "Radiation": "659.9128450504272",
+    "Radiation": "864.2682178860279",
     "particle": "ions(Mg-Fe)"
   },
   {
-    "Radiation": "615.586376308229",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "283.20038620093817",
+    "Radiation": "411.28184493253093",
     "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "899.4965598495481",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "449.5113278015373",
-    "particle": "ions(Mg-Fe)"
   },
   {
-    "Radiation": "687.2953453531419",
+    "Radiation": "998.2923309271017",
     "particle": "ions(Mg-Fe)"
   },
   {
-    "Radiation": "411.7372205441431",
+    "Radiation": "535.1057563383627",
     "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "103.90205161938493",
-    "particle": "ions(Mg-Fe)"
   },
   {
-    "Radiation": "325.43492646242476",
+    "Radiation": "829.7663689664117",
     "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "451.9414748439398",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "399.78665244152654",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "744.9681405143256",
-    "particle": "ions(Li-O)"
   },
   {
-    "Radiation": "549.7131422828097",
+    "Radiation": "932.3925249334784",
     "particle": "ions(Li-O)"
   },
   {
-    "Radiation": "212.33068442905343",
+    "Radiation": "291.55693721689926",
     "particle": "ions(Mg-Fe)"
   },
   {
-    "Radiation": "503.8803745845006",
+    "Radiation": "320.798212323228",
     "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "761.1460353821658",
-    "particle": "ions(Mg-Fe)"
   },
   {
-    "Radiation": "557.0130969111119",
+    "Radiation": "558.8469079854104",
     "particle": "ions(Mg-Fe)"
   },
   {
-    "Radiation": "557.9749078118837",
+    "Radiation": "589.6617646750608",
     "particle": "ions(Li-O)"
   },
   {
-    "Radiation": "948.9695795393942",
+    "Radiation": "583.8285871978271",
     "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "324.97414604208785",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "699.5282862422052",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "998.5761034075562",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "624.1667075651916",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "806.6934804437176",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "951.567291352742",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "485.324601221137",
-    "particle": "ions(Mg-Fe)"
   },
   {
-    "Radiation": "284.29435204272875",
+    "Radiation": "553.748818377095",
     "particle": "ions(Li-O)"
   },
   {
-    "Radiation": "914.3029166226729",
+    "Radiation": "88.86257476240836",
     "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "593.8453992323203",
-    "particle": "ions(Mg-Fe)"
   },
   {
-    "Radiation": "494.47726294435216",
+    "Radiation": "519.7070358882243",
     "particle": "ions(Li-O)"
   },
   {
-    "Radiation": "81.37400844210892",
+    "Radiation": "741.6983266021045",
     "particle": "ions(Li-O)"
   },
   {
-    "Radiation": "717.4668330348285",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "474.40399907230744",
+    "Radiation": "366.8328865346048",
     "particle": "ions(Li-O)"
   },
   {
-    "Radiation": "643.7193141426911",
+    "Radiation": "225.3881072638851",
     "particle": "ions(Li-O)"
   },
   {
-    "Radiation": "862.5487862326278",
+    "Radiation": "482.9881050134878",
     "particle": "ions(Li-O)"
   },
   {
-    "Radiation": "187.32849211011867",
+    "Radiation": "671.353092912412",
     "particle": "ions(Li-O)"
   },
   {
-    "Radiation": "295.2098004991992",
+    "Radiation": "49.034707495968064",
     "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "670.181838569746",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "30.149092068002496",
-    "particle": "ions(Li-O)"
   },
   {
-    "Radiation": "881.6008982848642",
+    "Radiation": "953.154375915479",
     "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "530.5136255020025",
-    "particle": "ions(Li-O)"
   },
   {
-    "Radiation": "947.6814194928372",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "942.1789501652244",
+    "Radiation": "249.84964224555304",
     "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "396.0041295502908",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "990.0814689081126",
-    "particle": "ions(Li-O)"
   },
   {
-    "Radiation": "626.3729851719074",
+    "Radiation": "737.6705884060522",
     "particle": "ions(Li-O)"
   },
   {
-    "Radiation": "721.3209341686239",
+    "Radiation": "762.2287936056713",
     "particle": "ions(Mg-Fe)"
   },
   {
-    "Radiation": "271.09359513636406",
+    "Radiation": "273.22801595867645",
     "particle": "ions(Li-O)"
   },
   {
-    "Radiation": "755.9455561347702",
+    "Radiation": "909.556930187043",
     "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "916.2574488803727",
-    "particle": "ions(Li-O)"
   },
   {
-    "Radiation": "131.13288041393264",
+    "Radiation": "143.47378266434959",
     "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "71.67585462075407",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "203.06144474920848",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "979.8666278909265",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "608.4362199432061",
-    "particle": "ions(Mg-Fe)"
   },
   {
-    "Radiation": "503.64119958291036",
+    "Radiation": "572.4390879543727",
     "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "75.6985794768809",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "416.45487035981137",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "865.6770081014628",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "532.7509121743093",
-    "particle": "ions(Mg-Fe)"
   },
   {
-    "Radiation": "146.03692409059389",
+    "Radiation": "962.8320151292526",
     "particle": "ions(Mg-Fe)"
   },
   {
-    "Radiation": "324.66355758745283",
+    "Radiation": "26.21285859448798",
     "particle": "ions(Mg-Fe)"
   },
   {
-    "Radiation": "536.0738017884994",
+    "Radiation": "997.5603687488593",
     "particle": "ions(Li-O)"
   },
   {
-    "Radiation": "659.4048094166974",
+    "Radiation": "442.7657220685535",
     "particle": "ions(Mg-Fe)"
   },
   {
-    "Radiation": "811.289329712134",
+    "Radiation": "292.39560935354484",
     "particle": "ions(Mg-Fe)"
   },
   {
-    "Radiation": "491.2885716614197",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "162.75407532384878",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "678.2806716002447",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "86.22045430620537",
-    "particle": "p-He"
-  },
-  {
-    "Radiation": "349.7725812406503",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "471.319789092814",
+    "Radiation": "664.107405280354",
     "particle": "ions(Mg-Fe)"
   },
   {
-    "Radiation": "497.4808114209217",
+    "Radiation": "173.48584335773867",
     "particle": "ions(Mg-Fe)"
   },
   {
-    "Radiation": "859.6873680115398",
+    "Radiation": "833.814937905905",
     "particle": "ions(Mg-Fe)"
   },
   {
-    "Radiation": "960.8658085744235",
+    "Radiation": "264.28162405367294",
     "particle": "ions(Mg-Fe)"
   },
   {
-    "Radiation": "269.27704269684506",
+    "Radiation": "488.1045168545261",
     "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "840.0429043957236",
-    "particle": "ions(Li-O)"
   },
   {
-    "Radiation": "918.5835983907474",
+    "Radiation": "907.658304019321",
     "particle": "ions(Li-O)"
   },
   {
-    "Radiation": "412.9454295196695",
+    "Radiation": "269.65365066429536",
     "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "511.60981780028897",
-    "particle": "ions(Mg-Fe)"
   },
   {
-    "Radiation": "940.9725241732968",
+    "Radiation": "249.46346297378432",
     "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "252.42889946260956",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "743.2627405617577",
-    "particle": "ions(Li-O)"
   },
   {
-    "Radiation": "21.67777658422381",
+    "Radiation": "598.4152990391927",
     "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "683.5331164352237",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "333.4104543171954",
-    "particle": "ions(Li-O)"
   },
   {
-    "Radiation": "653.8897389989467",
+    "Radiation": "225.09828729319253",
     "particle": "ions(Li-O)"
   },
   {
-    "Radiation": "136.17030472198505",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "958.7849398079136",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "610.747558119957",
+    "Radiation": "562.1381886554867",
     "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "85.87152954400052",
-    "particle": "p-He"
-  },
-  {
-    "Radiation": "43.1547855624569",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "420.0998001294461",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "258.6215089084375",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "951.9508932916796",
-    "particle": "ions(Li-O)"
   },
   {
-    "Radiation": "928.4151373493049",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "231.49025245449053",
+    "Radiation": "244.21475109072938",
     "particle": "ions(Mg-Fe)"
   },
   {
-    "Radiation": "284.3852191412485",
+    "Radiation": "236.94170404887942",
     "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "144.52092258414092",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "106.78944346520845",
-    "particle": "ions(Li-O)"
   },
   {
-    "Radiation": "830.0832218460337",
+    "Radiation": "978.8274293636174",
     "particle": "ions(Li-O)"
   },
   {
-    "Radiation": "463.5431006192575",
+    "Radiation": "362.83302300076195",
     "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "298.7788690542055",
-    "particle": "ions(Mg-Fe)"
   },
   {
-    "Radiation": "230.67958177447656",
+    "Radiation": "122.73016968699514",
     "particle": "ions(Mg-Fe)"
   },
   {
-    "Radiation": "223.53625330524346",
+    "Radiation": "253.59973190204343",
     "particle": "ions(Li-O)"
   },
   {
-    "Radiation": "222.77029360572388",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "602.3996299886957",
+    "Radiation": "222.0759810797182",
     "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "272.6242302907953",
-    "particle": "ions(Li-O)"
   },
   {
-    "Radiation": "849.7425874116602",
+    "Radiation": "402.54514750569905",
     "particle": "ions(Li-O)"
   },
   {
-    "Radiation": "504.223022901237",
+    "Radiation": "378.31815927735676",
     "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "405.82110231150307",
-    "particle": "ions(Li-O)"
   },
   {
-    "Radiation": "476.19792658918146",
+    "Radiation": "43.148138657775206",
     "particle": "ions(Li-O)"
   },
   {
-    "Radiation": "537.8947654756772",
+    "Radiation": "144.24137273796774",
     "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "845.9767558134835",
-    "particle": "ions(Mg-Fe)"
   },
   {
-    "Radiation": "274.63509889352065",
+    "Radiation": "48.74741582606205",
     "particle": "ions(Li-O)"
   },
   {
-    "Radiation": "641.7226893210552",
+    "Radiation": "842.5925234619859",
     "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "733.0815366457041",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "411.81732628548264",
-    "particle": "ions(Li-O)"
   },
   {
-    "Radiation": "601.4072302223851",
+    "Radiation": "700.9545309885409",
     "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "140.35669756706272",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "691.1726087602641",
-    "particle": "ions(Li-O)"
   },
   {
-    "Radiation": "460.1016644114946",
+    "Radiation": "556.0869811223906",
     "particle": "ions(Li-O)"
   },
   {
-    "Radiation": "890.107165367415",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "825.8549374835133",
+    "Radiation": "809.3543317801132",
     "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "32.80628027775266",
-    "particle": "p-He"
   },
   {
-    "Radiation": "784.7993206647794",
+    "Radiation": "789.4441234250149",
     "particle": "ions(Li-O)"
   },
   {
-    "Radiation": "348.5170294833342",
+    "Radiation": "290.9286105240257",
     "particle": "ions(Li-O)"
   },
   {
-    "Radiation": "564.6798491419053",
+    "Radiation": "210.34425461678407",
     "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "682.1321257608778",
-    "particle": "ions(Li-O)"
   },
   {
-    "Radiation": "6.524151224926721",
+    "Radiation": "4.243983917321688",
     "particle": "gamma-rays"
   },
   {
-    "Radiation": "479.6991030717146",
+    "Radiation": "645.090528950229",
     "particle": "ions(Mg-Fe)"
   },
   {
-    "Radiation": "481.6780320691174",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "913.7766359478846",
+    "Radiation": "474.0403934541728",
     "particle": "ions(Li-O)"
   },
   {
-    "Radiation": "193.26551524677555",
+    "Radiation": "859.3691651191031",
     "particle": "ions(Li-O)"
   },
   {
-    "Radiation": "942.0471753136778",
+    "Radiation": "142.29024093803395",
     "particle": "ions(Li-O)"
   },
   {
-    "Radiation": "100.52764071336003",
+    "Radiation": "244.3873542984381",
     "particle": "ions(Mg-Fe)"
   },
   {
-    "Radiation": "983.093811689948",
+    "Radiation": "188.11920249916065",
     "particle": "ions(Mg-Fe)"
   },
   {
-    "Radiation": "167.63355710962097",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "83.71545456425422",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "506.70517252587507",
+    "Radiation": "997.0091426036598",
     "particle": "ions(Li-O)"
   },
   {
-    "Radiation": "538.2344332449821",
+    "Radiation": "423.0812778409541",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "213.93356824523127",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "751.0993168970151",
     "particle": "ions(Li-O)"
   },
   {
-    "Radiation": "64.6391919110673",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "196.41825408034802",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "317.4160586864554",
+    "Radiation": "720.8560177735046",
     "particle": "ions(Li-O)"
   },
   {
-    "Radiation": "832.1179376377696",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "122.5399795384614",
+    "Radiation": "430.5518211423021",
     "particle": "ions(Li-O)"
   },
   {
-    "Radiation": "699.1196330949195",
+    "Radiation": "587.4187118974875",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "512.237343867643",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "980.9969884940316",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "291.65007858926793",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "209.54104498926142",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "164.67738636660283",
     "particle": "ions(Li-O)"
   },
   {
-    "Radiation": "740.9830031542283",
+    "Radiation": "770.1256272729803",
     "particle": "ions(Mg-Fe)"
   },
   {
-    "Radiation": "551.9190746729963",
+    "Radiation": "493.4928881895573",
     "particle": "ions(Mg-Fe)"
   },
   {
-    "Radiation": "445.99720702969375",
+    "Radiation": "833.7720966296118",
     "particle": "ions(Mg-Fe)"
   },
   {
-    "Radiation": "207.98764604763605",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "226.98812686974816",
+    "Radiation": "904.1804957676031",
     "particle": "ions(Li-O)"
   },
   {
-    "Radiation": "960.3877767215062",
+    "Radiation": "490.8433221021582",
     "particle": "ions(Mg-Fe)"
   },
   {
-    "Radiation": "490.20456074500703",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "667.1699874535605",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "277.62116694207947",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "895.5052221385871",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "315.46988972515004",
+    "Radiation": "108.03679314855835",
     "particle": "ions(Li-O)"
   },
   {
-    "Radiation": "483.75965910918256",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "765.2938244499226",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "124.14161373947982",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "235.95308688588193",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "949.5578173556565",
+    "Radiation": "56.35535245919498",
     "particle": "ions(Mg-Fe)"
   },
   {
-    "Radiation": "730.1430706165766",
+    "Radiation": "902.4676824094366",
     "particle": "ions(Mg-Fe)"
   },
   {
-    "Radiation": "465.52206027218637",
+    "Radiation": "801.9627581960729",
     "particle": "ions(Mg-Fe)"
   },
   {
-    "Radiation": "350.98996720330484",
+    "Radiation": "396.50749434047884",
     "particle": "ions(Mg-Fe)"
   },
   {
-    "Radiation": "24.008567274046346",
+    "Radiation": "428.9045984067044",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "987.4470040928765",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "747.9241745068026",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "619.7848834859424",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "103.61077663507722",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "971.3090939524957",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "872.6481543429189",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "434.0372737835368",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "401.67589721769286",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "828.3784793912341",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "305.87861688755186",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "414.93413401509576",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "516.8661435967381",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "794.2028974039774",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "539.4145568315063",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "101.64410276221336",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "397.9177931402686",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "506.7469931531499",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "699.7894845508804",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "455.6431032542901",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "516.8348595384838",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "513.632982717354",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "672.8341204206419",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "767.5146840339249",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "840.9890614134761",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "818.0362337446993",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "337.0496499460347",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "873.2246169378898",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "831.3701005462018",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "657.1012969638075",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "511.3263330808445",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "990.4907123539041",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "699.0368610270153",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "372.690336444238",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "952.5654217271283",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "616.1493872896932",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "465.88868856761076",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "53.91482613901519",
     "particle": "p-He"
   },
   {
-    "Radiation": "989.3603494038534",
+    "Radiation": "893.4012187187694",
     "particle": "ions(Mg-Fe)"
   },
   {
-    "Radiation": "83.22557353725705",
+    "Radiation": "706.2410889638354",
     "particle": "ions(Li-O)"
   },
   {
-    "Radiation": "588.2602494171423",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "968.875890238069",
+    "Radiation": "606.0100788811327",
     "particle": "ions(Li-O)"
   },
   {
-    "Radiation": "43.15230198472687",
+    "Radiation": "622.2293145751612",
     "particle": "ions(Mg-Fe)"
   },
   {
-    "Radiation": "374.83920312062423",
+    "Radiation": "155.2742472293741",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "783.7979960408707",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "166.64159715214163",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "155.9854396589032",
     "particle": "ions(Li-O)"
   },
   {
-    "Radiation": "309.4904969946232",
+    "Radiation": "831.8769802773832",
     "particle": "ions(Mg-Fe)"
   },
   {
-    "Radiation": "167.8560018796665",
+    "Radiation": "726.4198939795092",
     "particle": "ions(Mg-Fe)"
   },
   {
-    "Radiation": "723.9594241940822",
+    "Radiation": "314.79541290764354",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "565.3548136516765",
     "particle": "ions(Li-O)"
   },
   {
-    "Radiation": "888.8649036035761",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "236.81766933709076",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "969.1709693221305",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "715.4336074389455",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "808.5288073826584",
+    "Radiation": "894.4785713354297",
     "particle": "ions(Li-O)"
   },
   {
-    "Radiation": "435.1775204797809",
+    "Radiation": "718.1662736998783",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "178.96455627561141",
     "particle": "ions(Mg-Fe)"
   },
   {
-    "Radiation": "261.0681479568356",
+    "Radiation": "143.12871692361682",
     "particle": "ions(Li-O)"
   },
   {
-    "Radiation": "623.1029117996986",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "622.2756789870485",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "363.7236395309324",
+    "Radiation": "867.9369153184986",
     "particle": "ions(Mg-Fe)"
   },
   {
-    "Radiation": "78.25876212796703",
+    "Radiation": "260.27662194371544",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "729.9719266984097",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "170.69503349974357",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "863.5229470696331",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "197.55394725008435",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "170.86675202717595",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "473.2734159822008",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "869.714589792308",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "422.91209860448623",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "999.904752257951",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "775.1627416168402",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "176.0660793785262",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "307.5918945312151",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "434.4409189561423",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "759.4177111345225",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "208.32204989952078",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "925.697143481365",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "415.22359139636666",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "976.1249617276923",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "841.9250689530228",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "819.6880639125093",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "725.1029028862757",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "125.19347918133982",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "487.26055738891415",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "415.29676241049077",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "97.45677440939309",
     "particle": "p-He"
   },
   {
-    "Radiation": "504.43246054887163",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "737.3387275496797",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "551.3274399049319",
+    "Radiation": "798.408611292075",
     "particle": "ions(Mg-Fe)"
   },
   {
-    "Radiation": "475.36442489536853",
+    "Radiation": "845.793545007905",
     "particle": "ions(Mg-Fe)"
   },
   {
-    "Radiation": "870.0239087376008",
+    "Radiation": "164.39682330266115",
     "particle": "ions(Li-O)"
   },
   {
-    "Radiation": "964.264408448673",
+    "Radiation": "355.1942082564778",
     "particle": "ions(Mg-Fe)"
   },
   {
-    "Radiation": "275.6572309752909",
+    "Radiation": "433.9252160535018",
     "particle": "ions(Li-O)"
   },
   {
-    "Radiation": "522.6049857294596",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "991.5829424597462",
+    "Radiation": "241.47791975372022",
     "particle": "ions(Mg-Fe)"
   },
   {
-    "Radiation": "993.1364625550829",
+    "Radiation": "168.0675386713557",
     "particle": "ions(Mg-Fe)"
   },
   {
-    "Radiation": "749.285079353156",
+    "Radiation": "712.7165936773494",
     "particle": "ions(Li-O)"
   },
   {
-    "Radiation": "335.3530218054369",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "990.5244563522622",
+    "Radiation": "143.09041091681047",
     "particle": "ions(Mg-Fe)"
   },
   {
-    "Radiation": "208.18751739838208",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "687.5250685304261",
+    "Radiation": "895.8608420147137",
     "particle": "ions(Mg-Fe)"
   },
   {
-    "Radiation": "670.6009057327373",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "576.0772118327839",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "451.00882623929914",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "832.2621857869065",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "776.5348250348193",
+    "Radiation": "333.8423564008948",
     "particle": "ions(Mg-Fe)"
   },
   {
-    "Radiation": "502.097014657121",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "619.3684177065256",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "930.3931759877289",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "867.1869483228872",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "770.6964267362717",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "335.4266959978111",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "926.2621740249765",
+    "Radiation": "406.00531696131367",
     "particle": "ions(Mg-Fe)"
   },
   {
-    "Radiation": "792.7413543274761",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "371.4507728901462",
-    "particle": "ions(Mg-Fe)"
-  },
-  {
-    "Radiation": "242.9939385917901",
+    "Radiation": "24.594587611594942",
     "particle": "ions(Li-O)"
   },
   {
-    "Radiation": "628.3421289847608",
+    "Radiation": "298.66244505154714",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "86.92047741870456",
     "particle": "ions(Mg-Fe)"
   },
   {
-    "Radiation": "231.60285422106637",
+    "Radiation": "702.7566186287934",
     "particle": "ions(Li-O)"
   },
   {
-    "Radiation": "874.9470599212913",
+    "Radiation": "795.9451977396304",
     "particle": "ions(Mg-Fe)"
   },
   {
-    "Radiation": "890.2100627533086",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "916.1814012361184",
+    "Radiation": "121.7840957358681",
     "particle": "ions(Mg-Fe)"
   },
   {
-    "Radiation": "498.79993360940574",
+    "Radiation": "280.45062414381096",
     "particle": "ions(Mg-Fe)"
   },
   {
-    "Radiation": "567.6377764754533",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "624.7083256061497",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "874.4680559268484",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "390.571373669735",
+    "Radiation": "164.40328529297688",
     "particle": "ions(Mg-Fe)"
   },
   {
-    "Radiation": "925.6529230514586",
+    "Radiation": "869.8471441460214",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "711.387361635388",
     "particle": "ions(Mg-Fe)"
   },
   {
-    "Radiation": "618.9623795766698",
+    "Radiation": "219.5672479420214",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "776.8465680122046",
     "particle": "ions(Mg-Fe)"
   },
   {
-    "Radiation": "674.6287298706281",
+    "Radiation": "504.7513758877668",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "290.3900630636341",
     "particle": "ions(Mg-Fe)"
   },
   {
-    "Radiation": "708.2953353253541",
+    "Radiation": "664.5703079056242",
     "particle": "ions(Li-O)"
   },
   {
-    "Radiation": "646.8829542647696",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "190.1991434735836",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "208.22042642468543",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "769.5268532364205",
-    "particle": "ions(Li-O)"
-  },
-  {
-    "Radiation": "997.3927069541309",
+    "Radiation": "158.4717415360477",
     "particle": "ions(Mg-Fe)"
   },
   {
-    "Radiation": "854.0991752678915",
+    "Radiation": "274.60261251955893",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "445.9457250631257",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "248.3921455916513",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "640.1356920119564",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "914.5775391342196",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "323.50896607708495",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "15.087752044599744",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "395.19639558046646",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "539.85467652764",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "254.03971958866626",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "662.3174867181286",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "207.8000238905998",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "354.49852904553876",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "185.86693364480377",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "651.5660166045773",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "669.6544142799485",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "203.47220380028747",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "395.6143243011042",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "563.1549896396311",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "789.1946102967272",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "771.6155230405291",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "431.4892738708975",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "928.8628862468123",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "56.39072172026078",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "783.0376881325082",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "144.84943774720486",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "320.86060889368736",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "975.5560575485792",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "306.2783783672833",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "962.5913669733662",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "660.4082668843225",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "951.0896154110154",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "139.28444050177126",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "256.150006038301",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "527.0356069639305",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "231.22628677136944",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "303.9343566089279",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "803.3591956311046",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "785.1457937221141",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "260.1745711332479",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "880.2190210161284",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "809.0987479150557",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "957.0412785370195",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "417.8932155200785",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "759.7518947053669",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "941.2465037353011",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "613.1687167684537",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "631.1949182905936",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "420.44000507172075",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "113.2605967058815",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "498.6198952192241",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "736.0689828461068",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "480.1934203275448",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "527.8404141493594",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "238.90550647530904",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "800.4820720641785",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "624.2894193602204",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "603.9538777177768",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "256.0396959185328",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "835.3514428968258",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "479.7359447070887",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "2.2726082724010914",
+    "particle": "gamma-rays"
+  },
+  {
+    "Radiation": "947.4346117038058",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "453.1839221888896",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "144.19836607026195",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "886.0269457592036",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "278.20602101275176",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "70.93965586570482",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "373.06318466740913",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "928.7779352969014",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "693.3341482506966",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "191.5104300581601",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "877.0130143204011",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "375.2054131930623",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "627.4067660019049",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "151.1991088393427",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "793.9782527078505",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "597.4273376942245",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "998.7960172472657",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "477.9485790804825",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "157.31233547922196",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "198.09890948068212",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "740.2842303935424",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "655.0971940123557",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "100.01048045481687",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "706.1872516527632",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "831.0600303199401",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "667.7299313415102",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "610.953798696559",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "276.58221178072563",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "290.95120194139275",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "169.25501239432353",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "896.2154367033229",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "648.582227314017",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "311.7475482813178",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "495.95913684168494",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "780.2085897336087",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "779.6899485689397",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "11.893762136702637",
+    "particle": "p-He"
+  },
+  {
+    "Radiation": "30.185754560163666",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "124.09186196590491",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "230.0627858428773",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "327.6003519293177",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "629.6362680416589",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "945.9724724711775",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "361.9893653502042",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "177.62851138426407",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "901.2156743671267",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "769.3642451744664",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "854.0055788407535",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "376.75431883873927",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "145.93158699046404",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "770.5636697516873",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "872.9207198358314",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "711.7065580740357",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "680.0082875113796",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "417.9051895172995",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "473.8976359619426",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "237.60319965762724",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "58.195625225982",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "666.3442334266348",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "446.61972854198916",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "121.58208183964935",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "481.0374305257774",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "218.49598730812824",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "879.1817140408716",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "287.6326121746144",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "241.61283323022002",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "28.525929772676147",
+    "particle": "p-He"
+  },
+  {
+    "Radiation": "170.66135626261746",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "725.0879718177187",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "665.0800134385119",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "992.0494986684126",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "91.0647945956295",
+    "particle": "p-He"
+  },
+  {
+    "Radiation": "554.3291365189036",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "381.33231349826787",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "734.2472816656142",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "738.2896015485816",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "858.1860742796538",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "165.92388543294368",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "519.444223728783",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "947.0164670958317",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "832.2948609349311",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "802.6332452195459",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "538.6329353638973",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "770.4226964202924",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "44.38457282175594",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "603.9120419644701",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "284.94298451780685",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "142.60946112153206",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "447.3221794632228",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "293.8089247809589",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "283.8717472004641",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "736.7479632948026",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "317.740400892318",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "911.7681974385687",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "175.39563571127482",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "319.77901260022196",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "502.00912385391405",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "293.47691823127207",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "43.474765491829594",
+    "particle": "p-He"
+  },
+  {
+    "Radiation": "641.0462320782067",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "153.28868037418903",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "477.17507867973643",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "922.5491234654853",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "962.502991670755",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "677.8202323911676",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "41.749123142459695",
+    "particle": "p-He"
+  },
+  {
+    "Radiation": "610.9996744808279",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "905.0096651681902",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "729.6675110668383",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "30.700649727614206",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "295.4140206735565",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "179.53012614513108",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "934.9229471208008",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "574.6195119269316",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "969.3528979937645",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "120.64304992056258",
+    "particle": "ions(Mg-Fe)"
+  },
+  {
+    "Radiation": "459.329978012512",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "767.7932130392807",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "327.7612232752672",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "668.9078081370968",
+    "particle": "ions(Li-O)"
+  },
+  {
+    "Radiation": "685.1549373955248",
     "particle": "ions(Mg-Fe)"
   }
 ]
