@@ -1,4 +1,4 @@
-package RADS;
+package src.RADS;
 
 import generic.RoverServerRunnable;
 import JSON.MyWriter;

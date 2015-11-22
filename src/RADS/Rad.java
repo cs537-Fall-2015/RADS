@@ -1,4 +1,4 @@
-package RADS;
+package src.RADS;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
